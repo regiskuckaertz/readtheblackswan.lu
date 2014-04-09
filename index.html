@@ -1,0 +1,12 @@
+{% capture pageTitle %}{{ site.title }} — {{ site.meta.blurb | smartypants }}{% endcapture %}
+{% capture content %}
+  {% for p in site.posts %}
+    {% assign current = p %}
+    {% if forloop.index0 > 0 %}
+    <hr class="article-pause">
+    {% endif %}
+    {% include 'includes/article' %}
+  {% endfor %} 
+{% endcapture %}
+
+{% include 'layouts/default' %}

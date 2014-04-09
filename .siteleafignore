@@ -1,0 +1,5 @@
+.*
+LICENSE
+README.md
+styles/*.less
+scripts/*.coffee
