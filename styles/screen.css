@@ -1,0 +1,298 @@
+/* Some bits directly inherited from normalize.css
+ * Source: http://necolas.github.io/normalize.css/
+ */
+
+html {
+  font: normal 100%/1.8 'Glosa', Georgia, 'times new roman', serif;
+  height: 100%;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+  background: #fbfdff;
+  border: 8px solid #A04740;
+  color: #333;
+  -o-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga";
+  -webkit-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  margin: 0;
+  min-height: 100%;
+  transition: opacity .8s;
+}
+
+::selection {
+  background: #A04740;
+  color: #fff;
+}
+
+::-moz-selection {
+  background: #A04740;
+  color: #fff;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 92%;
+  width: 37em;
+}
+
+.brand {
+  border-bottom: 1px solid;
+  font-family: verdana, sans-serif;
+  font-size: .75rem;
+  letter-spacing: .5em;
+  padding: 1.5rem 0;
+  text-align: center;
+  text-transform: uppercase;
+  word-spacing: 1em;
+}
+
+.brand-logo,
+.brand-logo:visited,
+.brand-logo:hover,
+.brand-logo:focus {
+  border-bottom: 0;
+  color: inherit;
+}
+
+article, 
+header, 
+main,
+footer {
+    display: block;
+}
+
+.article-head {
+  margin: 8em 0 2em;
+}
+
+.article-title {
+  color: #A04740;
+  font: italic 300 3em/1 'Auto', 'hoefler text', 'times new roman', serif;
+  -o-font-feature-settings: "liga", "swsh";
+  -moz-font-feature-settings: "liga", "swsh";
+  -webkit-font-feature-settings: "liga", "swsh";
+  font-feature-settings: "liga", "swsh";
+  margin: 0 0 3em;
+  text-align: center;
+}
+
+.article-title a,
+.article-title a:visited,
+.article-title a:hover,
+.article-title a:focus {
+  border-bottom: 0;
+  color: inherit;
+}
+
+.article-title a:hover,
+.article-title a:focus {
+  color: #333;
+}
+
+.article-pause {
+  border-color: #c7c9cb;
+  border-width: 1px 0 0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 1;
+  margin: 4.5em 0;
+}
+
+
+.meta {
+  color: #ccc;
+  font: 400 .75rem Verdana, sans-serif;
+  text-align: center;
+}
+
+.meta a,
+.meta a:visited {
+  border-bottom: 2px solid #ccc;
+  color: inherit;
+}
+
+a {
+  color: #6565DA;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #6B6B8C; 
+}
+
+a:hover,
+a:focus {
+  border-bottom: 2px solid #c7c9cb;
+}
+
+.text h2 {
+  font-size: 1.6rem;
+  font-weight: normal;
+  line-height: 1.8rem;
+  margin: 3.6rem 0 1.8rem;
+  text-align: center;
+}
+
+.text p {
+  margin: 0 0 1.8rem;
+}
+
+.text ol,
+.text ul {
+  list-style-position: inside;
+  margin: 1.8rem 0;
+  padding: 0;
+}
+
+.text li > strong:first-child {
+  font-family: verdana, sans-serif;
+  font-size: .75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.text hr {
+  border: 0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 1;
+  margin: 4.5em 0;
+  text-align: center;
+}
+
+.text hr:before {
+  content: '* * *';
+}
+
+.text blockquote {
+  font: italic 300 1.5rem/1.8rem 'Auto', 'hoefler text', 'times new roman', serif;
+  margin: 1.8rem 0;
+}
+
+.text blockquote p {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.text blockquote del {
+  text-decoration: none;
+}
+
+.g:before,
+.g:after {
+  content: '';
+  display: table;
+}
+
+.g:after {
+  clear: both;
+}
+
+.gu {
+  box-sizing: border-box;
+}
+
+footer[role="contentinfo"] {
+  font-size: .75em;
+  line-height: 1.8;
+  padding: 3em 0;
+  text-align: center;
+}
+
+.section:before {
+  background: linear-gradient(to right, #fff, #c7c9cb, #fff);
+  content: '';
+  display: block;
+  height: 1px;
+  margin: 0 3em 3em;
+}
+
+table {
+  font-size: .75rem;
+  width: 100%;
+}
+
+th, td {
+  padding: 0 1rem .25rem 0;
+  text-align: left;
+}
+
+.chart-source td {
+  font-family: verdana, sans-serif;
+  text-align: right;
+}
+
+figure {
+  margin: 3.6rem 0;
+}
+
+figure .g {
+  border: .25rem solid #A04740;
+  border-right: 0;
+  border-left: 0;
+  padding: 1.8rem 0;
+}
+
+figcaption {
+  color: #888;
+  font-size: .75rem;
+  margin: .9rem auto 0 1rem;
+  max-width: 30em;
+}
+
+.text figcaption p {
+  margin: 0;
+}
+
+footer[role="contentinfo"] small {
+  font-size: 1em;
+}
+
+footer[role="contentinfo"] ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 44em) {
+  html {
+    font-size: 150%;
+    line-height: 1.6;
+  }
+
+  .brand {
+    font-size: .5rem;
+  }
+
+  .text p {
+    margin: 0 3.2rem 3rem;
+  }
+
+  .text ol,
+  .text ul {
+    margin: 3rem 3.2rem;
+  }
+
+  .g-2x1 .gu {
+    width: 50%;
+  }
+
+  .gu {
+    float: left;
+    padding: 0 2rem;
+  }
+}
+
+.wf-loading body {
+  opacity: 0;
+}
+
+.wf-active body {
+  opacity: 1;
+}
