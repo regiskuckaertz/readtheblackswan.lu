@@ -2,6 +2,10 @@
 {% capture content %}
   {% for p in site.posts %}
     {% assign current = p %}
+    {% capture thefuck %}
+    	{{ current.excerpt }}
+    	<p class="article-more"><a href="{{ current.url }}">Keep reading<span class="at"> {{ current.title }}</span></a></p>
+    {% endcapture %}
     {% if forloop.index0 > 0 %}
     <hr class="article-pause">
     {% endif %}

@@ -2,5 +2,5 @@
 LICENSE
 README.md
 styles/*.less
-scripts/*.coffee
-node_modules
+Gruntfile.js
+node_modules/*

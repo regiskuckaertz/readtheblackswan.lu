@@ -1,31 +1,40 @@
-<article role="article" class="article wrapper">
+<article class="article wrapper">
   <header class="article-head">
-    <h1 class="article-title"><a href="{{ current.url }}">{{ current.title | smartypants }}</a></h1>
-    
+    <h1 class="article-title">
+      {%if meta['svg-title'] %}
+        {{ meta['svg-title'] }}
+      {% else %}
+        <a href="{{ current.url }}">{{ current.title | smartypants }}</a>
+      {% endif %}
+    </h1>
+
+
     {% if current.parent %}
     <div class="meta">Published in <a href="{{ current.parent.url }}">{{ current.parent.title | smartypants }}</a> on <time datetime="{{ current.date }}">{{ current.date | date: "%B %d" }}</time></div>
     {% endif %}
   </header>
-  
+
   <div class="article-content text">
-    {{ current.body }}
+    {{ thefuck }}
   </div>
-  
-  {% if current.posts.size > 0 %}
-  <footer id="soliloquies" class="section">
-    <h2>Satellite articles</h2>
-    <ul>
-      {% for post in current.posts %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </footer>
+
+  {% if type == 'post' %}
+    <nav class="article-next">
+      <h2>Read this next</h2>
+      <span>
+      {% if previous %}
+        <a href="{{ previous.url }}">
+          {{ previous.title }}
+        </a>
+      {% endif %}
+      </span>
+      <span>
+      {% if next %}
+        <a href="{{ next.url }}">
+          {{ next.title }}
+        </a>
+      {% endif %}
+      </span>
+    </nav>
   {% endif %}
 </article>
-
-{% if current.meta.script %}
-{% capture scripts %}
-{{ scripts }}
-<script src="/scripts/{{ current.meta.script }}.js"></script>
-{% endcapture %}
-{% endif %}
