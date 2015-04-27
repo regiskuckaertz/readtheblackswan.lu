@@ -25,6 +25,7 @@ html {
 
 body {
   background: #FDF8F8;
+  border-top: 4px solid #A04740;
   color: #333;
   font-feature-settings: "liga";
   margin: 0;
@@ -41,7 +42,6 @@ body {
   }
 
   @media (min-width: 52em) {
-    border-top: 4px solid #A04740;
     padding: 0 2em;
   }
 }
@@ -143,7 +143,7 @@ a:focus {
 }
 
 .article-pause {
-  border-color: #c7c9cb;
+  border-color: #F5F8FC;
   border-width: 6px 0 0;
   box-sizing: border-box;
   line-height: 1;
@@ -177,7 +177,10 @@ a:focus {
     font-style: italic;
     font-weight: 300;
     padding: .25em .5em .4em;
-    width: 15em;
+
+    @media (min-width: 38em) {
+      width: 15em;
+    }
 
     &:nth-of-type(1) { text-align: right; }
     &:nth-of-type(2) {
