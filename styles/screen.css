@@ -70,9 +70,11 @@ a:hover,
 a:focus {
   border-bottom: 2px solid #c7c9cb;
 }
+mark,
 ::-moz-selection {
   background: #FDFFDF;
 }
+mark,
 ::selection {
   background: #FDFFDF;
 }
@@ -359,6 +361,11 @@ figcaption {
   margin: .9rem auto 0 1rem;
   max-width: 30em;
 }
+ins:not([class]) {
+  text-decoration-color: rgba(0, 0, 0, 0.1);
+  -webkit-text-decoration-style: dotted;
+          text-decoration-style: dotted;
+}
 .credit {
   color: #d4d4d4;
 }
@@ -433,4 +440,42 @@ figcaption {
     padding: 0 0 0 3em;
     width: 50%;
   }
+}
+.sic {
+  font-style: italic;
+  font-weight: normal;
+  text-decoration: none;
+}
+.sic::before,
+.sic::after {
+  font-style: normal;
+}
+.sic::before {
+  content: '[';
+}
+.sic::after {
+  content: ']';
+}
+.footnotes {
+  font-size: .75em;
+}
+@media (min-width: 44em) {
+  .footnotes {
+    margin: 0 3.2rem;
+  }
+}
+.footnotes::before {
+  content: '';
+  display: block;
+  border-top: 2px solid #c7c9cb;
+  height: 0;
+  width: 10em;
+}
+@media (min-width: 44em) {
+  .footnotes > ol {
+    margin: 3rem 0;
+  }
+}
+.footnotes li + li {
+  margin-top: .5em;
 }

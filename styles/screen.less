@@ -69,6 +69,7 @@ a:focus {
   border-bottom: 2px solid #c7c9cb;
 }
 
+mark,
 ::selection {
   background: #FDFFDF;
 }
@@ -372,6 +373,11 @@ figcaption {
   max-width: 30em;
 }
 
+ins:not([class]) {
+  text-decoration-color: rgba(0,0,0,.1);
+  text-decoration-style: dotted;
+}
+
 .credit {
   color: #d4d4d4;
 }
@@ -465,5 +471,43 @@ figcaption {
     margin-top: .4em;
     padding: 0 0 0 3em;
     width: 50%;
+  }
+}
+
+
+.sic {
+  font-style: italic;
+  font-weight: normal;
+  text-decoration: none;
+
+  &::before,
+  &::after  { font-style: normal; }
+  &::before { content: '['; }
+  &::after  { content: ']'; }
+}
+
+.footnotes {
+  font-size: .75em;
+
+  @media (min-width: 44em) {
+    margin: 0 3.2rem;
+  }
+
+  &::before {
+    content: '';
+    display: block;
+    border-top: 2px solid #c7c9cb;
+    height: 0;
+    width: 10em;
+  }
+
+  > ol {
+    @media (min-width: 44em) {
+      margin: 3rem 0;
+    }
+  }
+
+  li + li {
+    margin-top: .5em;
   }
 }

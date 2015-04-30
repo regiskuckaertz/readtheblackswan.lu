@@ -18,7 +18,7 @@
     {{ thefuck }}
   </div>
 
-  {% if type == 'post' %}
+  {% if type == 'post' and previous or next %}
     <nav class="article-next">
       <h2>Read this next</h2>
       <span>
