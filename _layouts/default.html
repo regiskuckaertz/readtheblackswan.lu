@@ -13,15 +13,13 @@
   <meta property="og:url" content="http://readtheblackswan.lu{{ url }}">
   <meta property="og:description" content="{{ meta.description }}">
   <link rel="alternate" type="application/rss+xml" href="{{ site.feed_url }}">
-  <script>{% include 'includes/webfonts' %}{% if meta['customcss'] %}{% include 'includes/loadCSS' %}
-      loadCSS('/styles/{{ meta['customcss'] }}'){% endif %}</script>
-  <style>{% include 'includes/styles' %}</style>
+  <script>{% include 'includes/scripts' %}loadCSS('/styles/screen.min.css'){% if meta['customcss'] %};loadCSS('/styles/{{ meta['customcss'] }}'){% endif %}</script>
+  <style>{% include 'includes/critical' %}</style>
 </head>
 <body>
   {% include 'includes/header' %}
   {{ content }}
   {% include 'includes/footer' %}
-  {% include 'includes/tracking' %}
   {{ scripts }}
 </body>
 </html>

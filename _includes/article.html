@@ -18,23 +18,19 @@
     {{ thefuck }}
   </div>
 
-  {% if type == 'post' and previous or next %}
+  {% if type == 'post' and previous or type == 'post' and next %}
     <nav class="article-next">
       <h2>Read this next</h2>
-      <span>
       {% if previous %}
         <a href="{{ previous.url }}">
           {{ previous.title }}
         </a>
       {% endif %}
-      </span>
-      <span>
       {% if next %}
         <a href="{{ next.url }}">
           {{ next.title }}
         </a>
       {% endif %}
-      </span>
     </nav>
   {% endif %}
 </article>

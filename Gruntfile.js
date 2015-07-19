@@ -31,27 +31,35 @@ module.exports = function(grunt) {
         dest: "styles/screen.css"
       }
     },
-    cssc: {
+    csso: {
       main: {
-        options: {
-            sort: true,
-            lineBreaks: true,
-            compress: true
-        },
         files: {
-          "_includes/styles.html": "styles/screen.css"
+          "styles/screen.min.css": "styles/screen.css",
+          "_includes/critical.html": "styles/critical.css"
+        }
+      }
+    },
+    criticalcss: {
+      custom: {
+        options: {
+          url: "http://readtheblackswan.dev",
+          width: 320,
+          height: 480,
+          outputfile: "styles/critical.css",
+          filename: "styles/screen.css"
         }
       }
     },
     uglify: {
+      options: {
+        compress: true,
+        mangle: true,
+        wrap: true
+      },
       main: {
-        files: [{
-            expand: true,
-            cwd: 'scripts/',
-            src: ['*.js','!*.min.js'],
-            dest: '_includes/',
-            ext: '.html'
-        }]
+        files: {
+          '_includes/scripts.html': ['scripts/ga.js', 'scripts/loadCSS.js', 'scripts/webfonts.js'] 
+        }
       }
     },
     watch: {
@@ -69,10 +77,11 @@ module.exports = function(grunt) {
   // These plugins provide necessary tasks.
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-autoprefixer');
-  grunt.loadNpmTasks('grunt-cssc');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-criticalcss');
+  grunt.loadNpmTasks('grunt-csso');
 
   // Default task.
-  grunt.registerTask('default', ['less', 'autoprefixer', 'cssc', 'uglify']);
+  grunt.registerTask('default', ['less', 'autoprefixer', 'criticalcss', 'csso', 'uglify']);
 
 };
