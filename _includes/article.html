@@ -1,4 +1,4 @@
-<article class="article wrapper">
+<article class="article">
   <header class="article-head">
     <h1 class="article-title">
       {%if meta['svg-title'] %}
@@ -7,14 +7,12 @@
         <a href="{{ current.url }}">{{ current.title | smartypants }}</a>
       {% endif %}
     </h1>
+  </header>
 
-
+  <div class="article-content text wrapper">
     {% if current.parent %}
     <div class="meta">Published in <a href="{{ current.parent.url }}">{{ current.parent.title | smartypants }}</a> on <time datetime="{{ current.date }}">{{ current.date | date: "%B %d" }}</time></div>
     {% endif %}
-  </header>
-
-  <div class="article-content text">
     {{ thefuck }}
   </div>
 

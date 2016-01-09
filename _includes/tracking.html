@@ -1,1 +1,8 @@
-(function(d,a,c,b){d.GoogleAnalyticsObject=c;d[c]||(d[c]=function(){(d[c].q=d[c].q||[]).push(arguments)});d[c].l=+new Date();b=a.createElement("script"),b.src="//www.google-analytics.com/analytics.js";a.head.appendChild(b)})(window,document,"ga");ga("create","UA-48103481-1","readtheblackswan.lu");ga("send","pageview");
+(function(window, document, ga) {
+  window._gaq = window._gaq || [];
+  window._gaq.push(['_setAccount', 'UA-48103481-1']);
+  window._gaq.push(['_trackPageview']);
+
+  ga.src = 'https://ssl.google-analytics.com/ga.js';
+  var s = document.scripts[0]; s.parentNode.insertBefore(ga, s);
+}(window, document, document.createElement('script')))

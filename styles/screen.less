@@ -59,12 +59,31 @@ a:visited {
 a:hover,
 a:focus {
   border-bottom: 2px solid #c7c9cb;
+
+  @media (min-resolution: 2dppx),
+    (-webkit-min-device-pixel-ratio: 2) {
+    border-bottom-width: 1px;
+  }
+
+  @media (min-resolution: 3dppx),
+    (-webkit-min-device-pixel-ratio: 3) {
+      border-bottom-width: (2px / 3);
+  }
+}
+
+a,
+button,
+input,
+select,
+textarea {
+  touch-action: manipulation;
 }
 
 sup {
   font-feature-settings: "sups" 1;
   font-variant-position: super;
   line-height: 1;
+  font-size: .5em;
 }
 
 mark,
@@ -100,11 +119,11 @@ mark,
 
   @media (min-width: 30em) {
     margin: 0 -2em;
-    padding: 2em;
+    padding: 1em;
   }
 
   @media (min-width: 64.75em) {
-    padding: 2em calc(~"50% - 16.5em");
+    padding: 1em calc(~"50% - 16.5em");
   }
 }
 
@@ -117,10 +136,10 @@ mark,
 }
 
 .article-head {
-  margin: 4em 0 2em;
-  
+  padding: 4em 0;
+
   @media (min-width: 44em) {
-	  margin-top: 8em;
+	  padding: 8em 0;
   }
 }
 
@@ -128,12 +147,11 @@ mark,
   color: #A04740;
   font: italic 300 2em/1 Auto, hoefler text, times new roman, serif;
   font-feature-settings: "liga", "swsh";
-  margin: 0 0 1em;
+  margin: 0;
   text-align: center;
 
   @media (min-width: 44em) {
   	font-size: 2em;
-    margin-bottom: 3em;
   }
 }
 
@@ -155,7 +173,7 @@ mark,
   border-width: 6px 0 0;
   box-sizing: border-box;
   line-height: 1;
-  margin: 6em auto;
+  margin: 6em auto 0;
   max-width: 4em;
 }
 
@@ -175,6 +193,7 @@ mark,
     font-weight: normal;
     letter-spacing: .1em;
     line-height: 1;
+    text-align: center;
     text-transform: uppercase;
     margin: 0 0 1em;
   }
@@ -222,6 +241,7 @@ mark,
   color: #ccc;
   font-size: .75rem;
   font-feature-settings: "smcp";
+  margin: 2rem 0;
   text-align: center;
 }
 
@@ -231,6 +251,16 @@ mark,
   font-feature-settings: "smcp" 0;
   font-style: italic;
   color: inherit;
+
+  @media (min-resolution: 2dppx),
+    (-webkit-min-device-pixel-ratio: 2) {
+    border-bottom-width: 1px;
+  }
+
+  @media (min-resolution: 3dppx),
+    (-webkit-min-device-pixel-ratio: 3) {
+      border-bottom-width: (2px / 3);
+  }
 }
 
 h2 {
@@ -238,7 +268,10 @@ h2 {
   font-weight: normal;
   line-height: 1.8rem;
   margin: 3.6rem 0 1.8rem;
-  text-align: center;
+
+  @media (min-width: 44em) {
+    margin: 3.6rem 3rem 1.8rem;
+  }
 }
 
 h3 {
@@ -254,7 +287,7 @@ p {
   }
 }
 
-.article-content > p:first-child:first-letter{
+.article-content > .meta + p:first-letter {
   color: #A04740;
   float: left;
   font-size: 5em;
@@ -322,6 +355,12 @@ blockquote p {
 
 blockquote del {
   text-decoration: none;
+}
+
+q {
+  font-style: italic;
+  &::before { content: '“'; }
+  &::after  { content: '”'; }
 }
 
 body > footer {
@@ -411,12 +450,12 @@ figure {
   @media (min-width: 35em) {
 	  margin: 3.6rem -3em;
   }
-  
+
   @media (min-width: 52em) {
 	  margin: 3.6rem -2em;
 	  display: flex;
   }
-  
+
   @media (min-width: 37em), (min-width: 64.75em) {
     margin: 3.6rem calc(-50vw + 18.5em);
   }
@@ -452,7 +491,7 @@ figcaption {
 
 figcaption > p {
   margin: 0 0 .9rem;
-  
+
   @media (min-width: 52em) {
     margin: 1rem;
   }
@@ -460,7 +499,7 @@ figcaption > p {
 
 .credit {
   color: #d4d4d4;
-  
+
   @media (min-width: 52em) {
     figcaption > & {
       font-size: .75em;
@@ -495,18 +534,13 @@ ins:not([class]) {
     max-width: none;
   }
 
-  .article-next>h2 {
-    text-align: center;
-  }
-
   @media (min-width: 44em) {
     p {
       margin: 0 0 3em;
     }
 
     .article-title,
-    .meta,
-    h2 {
+    .meta {
       text-align: left;
     }
 
@@ -524,7 +558,7 @@ ins:not([class]) {
       width: calc(100% / 61.8 * 100);
     }
   }
-  
+
   @media (min-width: 52em) {
     figure,
     figcaption {
@@ -565,6 +599,8 @@ ins:not([class]) {
   &::after  { font-style: normal; }
   &::before { content: '['; }
   &::after  { content: ']'; }
+
+  q & { font-style: normal; }
 }
 
 .footnotes {
@@ -580,6 +616,16 @@ ins:not([class]) {
     border-top: 2px solid #c7c9cb;
     height: 0;
     width: 10em;
+
+    @media (min-resolution: 2ddpx),
+      (-webkit-min-device-pixel-ratio: 2) {
+        border-top-width: 1px;
+      }
+
+    @media (min-resolution: 3ddpx),
+      (-webkit-min-device-pixel-ratio: 3) {
+        border-top-width: (2px/3);
+      }
   }
 
   > ol {
@@ -590,5 +636,49 @@ ins:not([class]) {
 
   li + li {
     margin-top: .5em;
+  }
+}
+
+[class*="ratio-"] {
+  &::before {
+    content: '';
+    display: block;
+  }
+}
+
+.ratio-16x9::before {
+  padding-top: (100% / 16 * 9);
+}
+
+.ratio-4x3::before {
+  padding-top: (100% / 4 * 3);
+}
+
+.ratio-φ::before {
+  padding-top: (100% * 2 / (1 + sqrt(5)));
+}
+
+.flexembed {
+  position: relative;
+
+  > iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/** POST-SPECIFIC CUSTOMIZATIONS **/
+
+#joining-the-guardian {
+  .article-head {
+    background: url('/assets/guardian.svg');
+    margin: 0 -1em;
+
+    @media (min-width: 30em) { margin: 0 -2em; }
+    @media (min-width: 35em) { margin: 0 -3em; }
+    @media (min-width: 52em) { margin: 0 -2em; }
   }
 }

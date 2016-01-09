@@ -62,11 +62,32 @@ a:hover,
 a:focus {
   border-bottom: 2px solid #c7c9cb;
 }
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  a:hover,
+  a:focus {
+    border-bottom-width: 1px;
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 3), (min-resolution: 3dppx) {
+  a:hover,
+  a:focus {
+    border-bottom-width: 0.66666667px;
+  }
+}
+a,
+button,
+input,
+select,
+textarea {
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+}
 sup {
   -webkit-font-feature-settings: "sups" 1;
           font-feature-settings: "sups" 1;
   font-variant-position: super;
   line-height: 1;
+  font-size: .5em;
 }
 mark,
 ::-moz-selection {
@@ -109,12 +130,12 @@ mark,
 @media (min-width: 30em) {
   .brand {
     margin: 0 -2em;
-    padding: 2em;
+    padding: 1em;
   }
 }
 @media (min-width: 64.75em) {
   .brand {
-    padding: 2em calc(50% - 16.5em);
+    padding: 1em calc(50% - 16.5em);
   }
 }
 .brand-logo,
@@ -125,11 +146,11 @@ mark,
   color: inherit;
 }
 .article-head {
-  margin: 4em 0 2em;
+  padding: 4em 0;
 }
 @media (min-width: 44em) {
   .article-head {
-    margin-top: 8em;
+    padding: 8em 0;
   }
 }
 .article-title {
@@ -137,13 +158,12 @@ mark,
   font: italic 300 2em/1 Auto, hoefler text, times new roman, serif;
   -webkit-font-feature-settings: "liga", "swsh";
           font-feature-settings: "liga", "swsh";
-  margin: 0 0 1em;
+  margin: 0;
   text-align: center;
 }
 @media (min-width: 44em) {
   .article-title {
     font-size: 2em;
-    margin-bottom: 3em;
   }
 }
 .article-title a,
@@ -162,7 +182,7 @@ mark,
   border-width: 6px 0 0;
   box-sizing: border-box;
   line-height: 1;
-  margin: 6em auto;
+  margin: 6em auto 0;
   max-width: 4em;
 }
 .article-more {
@@ -180,6 +200,7 @@ mark,
   font-weight: normal;
   letter-spacing: .1em;
   line-height: 1;
+  text-align: center;
   text-transform: uppercase;
   margin: 0 0 1em;
 }
@@ -234,6 +255,7 @@ mark,
   font-size: .75rem;
   -webkit-font-feature-settings: "smcp";
           font-feature-settings: "smcp";
+  margin: 2rem 0;
   text-align: center;
 }
 .meta a,
@@ -244,12 +266,28 @@ mark,
   font-style: italic;
   color: inherit;
 }
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .meta a,
+  .meta a:visited {
+    border-bottom-width: 1px;
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 3), (min-resolution: 3dppx) {
+  .meta a,
+  .meta a:visited {
+    border-bottom-width: 0.66666667px;
+  }
+}
 h2 {
   font-size: 1.6rem;
   font-weight: normal;
   line-height: 1.8rem;
   margin: 3.6rem 0 1.8rem;
-  text-align: center;
+}
+@media (min-width: 44em) {
+  h2 {
+    margin: 3.6rem 3rem 1.8rem;
+  }
 }
 h3 {
   font-size: .8em;
@@ -263,7 +301,7 @@ p {
     margin: 0 3.2rem 3rem;
   }
 }
-.article-content > p:first-child:first-letter {
+.article-content > .meta + p:first-letter {
   color: #A04740;
   float: left;
   font-size: 5em;
@@ -271,13 +309,13 @@ p {
   margin: 0 0.1em -0.2em 0;
 }
 @media (min-width: 44em) {
-  .article-content > p:first-child:first-letter {
+  .article-content > .meta + p:first-letter {
     font-size: 5.2em;
     line-height: 4.375rem;
   }
 }
 @media (min-width: 52em) {
-  .article-content > p:first-child:first-letter {
+  .article-content > .meta + p:first-letter {
     line-height: 4.6667rem;
   }
 }
@@ -326,6 +364,15 @@ blockquote p {
 }
 blockquote del {
   text-decoration: none;
+}
+q {
+  font-style: italic;
+}
+q::before {
+  content: '“';
+}
+q::after {
+  content: '”';
 }
 body > footer {
   font-size: .75em;
@@ -499,16 +546,12 @@ ins:not([class]) {
   margin-left: 0;
   max-width: none;
 }
-.with-sidenotes .article-next > h2 {
-  text-align: center;
-}
 @media (min-width: 44em) {
   .with-sidenotes p {
     margin: 0 0 3em;
   }
   .with-sidenotes .article-title,
-  .with-sidenotes .meta,
-  .with-sidenotes h2 {
+  .with-sidenotes .meta {
     text-align: left;
   }
   .with-sidenotes .article-content {
@@ -564,6 +607,9 @@ ins:not([class]) {
 .sic::after {
   content: ']';
 }
+q .sic {
+  font-style: normal;
+}
 .footnotes {
   font-size: .75em;
 }
@@ -579,6 +625,16 @@ ins:not([class]) {
   height: 0;
   width: 10em;
 }
+@media (min-resolution: 2ddpx), (-webkit-min-device-pixel-ratio: 2) {
+  .footnotes::before {
+    border-top-width: 1px;
+  }
+}
+@media (min-resolution: 3ddpx), (-webkit-min-device-pixel-ratio: 3) {
+  .footnotes::before {
+    border-top-width: 0.66666667px;
+  }
+}
 @media (min-width: 44em) {
   .footnotes > ol {
     margin: 3rem 0;
@@ -586,4 +642,47 @@ ins:not([class]) {
 }
 .footnotes li + li {
   margin-top: .5em;
+}
+[class*="ratio-"]::before {
+  content: '';
+  display: block;
+}
+.ratio-16x9::before {
+  padding-top: 56.25%;
+}
+.ratio-4x3::before {
+  padding-top: 75%;
+}
+.ratio-φ::before {
+  padding-top: 61.80339887%;
+}
+.flexembed {
+  position: relative;
+}
+.flexembed > iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+/** POST-SPECIFIC CUSTOMIZATIONS **/
+#joining-the-guardian .article-head {
+  background: url('/assets/guardian.svg');
+  margin: 0 -1em;
+}
+@media (min-width: 30em) {
+  #joining-the-guardian .article-head {
+    margin: 0 -2em;
+  }
+}
+@media (min-width: 35em) {
+  #joining-the-guardian .article-head {
+    margin: 0 -3em;
+  }
+}
+@media (min-width: 52em) {
+  #joining-the-guardian .article-head {
+    margin: 0 -2em;
+  }
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="{{ meta.type }}">
+<html id="{{ url | split:"/" | last }}" class="{{ meta.type }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,8 +10,10 @@
   {% endif %}
   <meta property="og:title" content="{{ title }}">
   <meta property="og:site_name" content="The Black Swan">
-  <meta property="og:url" content="http://readtheblackswan.lu{{ url }}">
+  <meta property="og:url" content="https://readtheblackswan.lu{{ url }}/">
   <meta property="og:description" content="{{ meta.description }}">
+  <meta property="og:type" content="article">
+  <meta property="article:author" content="https://www.facebook.com/regiskuckaertz">
   <link rel="alternate" type="application/rss+xml" href="{{ site.feed_url }}">
   <script>{% include 'includes/scripts' %}loadCSS('/styles/screen.min.css'){% if meta['customcss'] %};loadCSS('/styles/{{ meta['customcss'] }}'){% endif %}</script>
   <style>{% include 'includes/critical' %}</style>
