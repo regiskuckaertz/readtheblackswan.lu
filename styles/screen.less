@@ -2,6 +2,38 @@
  * Source: http://necolas.github.io/normalize.css/
  */
 
+@font-face {
+    font-family: Auto;
+    font-weight: 300;
+    font-style: italic;
+    src: url('../fonts/auto-i3.woff2') format('woff2'),
+         url('../fonts/auto-i3.woff') format('woff');
+}
+
+@font-face {
+    font-family: Glosa;
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/glosa-n4.woff2') format('woff2'),
+         url('../fonts/glosa-n4.woff') format('woff');
+}
+
+@font-face {
+    font-family: Glosa;
+    font-weight: 400;
+    font-style: italic;
+    src: url('../fonts/glosa-i4.woff2') format('woff2'),
+         url('../fonts/glosa-i4.woff') format('woff');
+}
+
+@font-face {
+    font-family: Glosa;
+    font-weight: 700;
+    font-style: normal;
+    src: url('../fonts/glosa-n7.woff2') format('woff2'),
+         url('../fonts/glosa-n7.woff') format('woff');
+}
+
 html {
   font: normal 100%/1.5 'Glosa', Georgia, 'times new roman', serif;
   hyphens: auto;
@@ -58,17 +90,9 @@ a:visited {
 
 a:hover,
 a:focus {
-  border-bottom: 2px solid #c7c9cb;
-
-  @media (min-resolution: 2dppx),
-    (-webkit-min-device-pixel-ratio: 2) {
-    border-bottom-width: 1px;
-  }
-
-  @media (min-resolution: 3dppx),
-    (-webkit-min-device-pixel-ratio: 3) {
-      border-bottom-width: (2px / 3);
-  }
+  text-decoration: underline;
+  text-decoration: underline solid #c7c9cb;
+  text-decoration-skip: ink;
 }
 
 a,
@@ -131,7 +155,7 @@ mark,
 .brand-logo:visited,
 .brand-logo:hover,
 .brand-logo:focus {
-  border-bottom: 0;
+  text-decoration: none;
   color: inherit;
 }
 
@@ -159,7 +183,7 @@ mark,
 .article-title a:visited,
 .article-title a:hover,
 .article-title a:focus {
-  border-bottom: 0;
+  text-decoration: none;
   color: inherit;
 }
 
@@ -199,7 +223,6 @@ mark,
   }
 
   > a {
-    border-bottom: none;
     display: inline-block;
     font-family: Auto, Hoefler Text, Georgia, serif;
     font-style: italic;
@@ -247,20 +270,9 @@ mark,
 
 .meta a,
 .meta a:visited {
-  border-bottom: 2px solid #ccc;
   font-feature-settings: "smcp" 0;
   font-style: italic;
   color: inherit;
-
-  @media (min-resolution: 2dppx),
-    (-webkit-min-device-pixel-ratio: 2) {
-    border-bottom-width: 1px;
-  }
-
-  @media (min-resolution: 3dppx),
-    (-webkit-min-device-pixel-ratio: 3) {
-      border-bottom-width: (2px / 3);
-  }
 }
 
 h2 {

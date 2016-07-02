@@ -4,6 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ pageTitle }}</title>
+  <link rel=preload href=fonts/glosa-n4.woff2 type=application/font-woff2 as=font crossorigin>
+  <link rel=preload href=fonts/auto-i3.woff2 type=application/font-woff2 as=font crossorigin>
   {% if home? %}
   <meta property="twitter:account_id" content="{{ site.meta.twitter_id }}">
   <meta property="fb:admins" content="806504781">
@@ -15,7 +17,11 @@
   <meta property="og:type" content="article">
   <meta property="article:author" content="https://www.facebook.com/regiskuckaertz">
   <link rel="alternate" type="application/rss+xml" href="{{ site.feed_url }}">
-  <script>{% include 'includes/scripts' %}loadCSS('/styles/screen.min.css'){% if meta['customcss'] %};loadCSS('/styles/{{ meta['customcss'] }}'){% endif %}</script>
+  <script>
+    {% include 'includes/scripts' %}
+    loadCSS('/styles/screen.min.css')
+    {% if meta['customcss'] %};loadCSS('/styles/{{ meta['customcss'] }}'){% endif %}
+  </script>
   <style>{% include 'includes/critical' %}</style>
 </head>
 <body>
