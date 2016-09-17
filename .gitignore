@@ -1,5 +1,6 @@
 .DS_Store
 .powrc
+.sass-cache
 npm-debug.log
 tmp
 config.ru
