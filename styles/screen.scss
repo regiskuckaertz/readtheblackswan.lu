@@ -216,13 +216,6 @@ p {
 }
 
 .article--excerpt {
-    & + &::before {
-        border-top: 2px solid $c-divider;
-        content: '';
-        display: block;
-        margin-top: $line-height * 2;
-    }
-
     @include mq(tablet) {
         .article-content {
             margin: 0;
