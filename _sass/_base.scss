@@ -1,0 +1,56 @@
+// Breakpoints
+
+$breakpoints: (
+    mobileS:  320px,
+    mobileM:  375px,
+    mobileL:  425px,
+    tablet:   768px,
+    laptop:   1024px,
+    desktop:  1440px
+);
+
+// Typographic grid
+
+$line-height: (1em / 16 * 22);
+
+// Modular grid
+
+$margins: (
+    mobileS:  20px,
+    mobileM:  (left: 23px, right: 22px),
+    mobileL:  (left: 33px, right: 32px),
+    tablet:   24px,
+    laptop:   32px,
+    desktop:  110px
+);
+
+$columns: (
+    mobileS:  4,
+    modileM:  4,
+    mobileL:  4,
+    tablet:   5,
+    laptop:   7,
+    desktop:  12
+);
+
+$gutters: (
+    mobileS:  10px,
+    modileM:  10px,
+    mobileL:  10px,
+    tablet:   10px,
+    laptop:   10px,
+    desktop:  10px
+);
+
+// Colour scheme
+
+$brand-colour: #ed1429;
+$neutral-light-colour: #e3e5e7;
+$neutral-dark-colour: #9e9c9a;
+$dark-colour: #282828;
+$light-colour: #fdfdfd;
+
+$a-color-link: $brand-colour;
+$a-color-visited: desaturate($brand-colour, 20%);
+
+$c-divider: $neutral-light-colour;

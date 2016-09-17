@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% include head.common.html %}
+    <title>{{ site.title }} — {{ site.blurb | smartify }}</title>
+</head>
+<body>
+    {% include header.html %}
+    <div class="content">
+        {{ content }}
+        {% include footer.html %}
+    </div>
+</body>
+</html>

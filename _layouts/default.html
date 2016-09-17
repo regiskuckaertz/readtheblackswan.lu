@@ -1,33 +1,21 @@
 <!DOCTYPE html>
-<html id="{{ url | split:"/" | last }}" class="{{ meta.type }}">
+<html id="{{ post.url | split:"/" | last }}" class="{{ meta.type }}">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ pageTitle }}</title>
-  <link rel=preload href=fonts/glosa-n4.woff2 type=application/font-woff2 as=font crossorigin>
-  <link rel=preload href=fonts/auto-i3.woff2 type=application/font-woff2 as=font crossorigin>
-  {% if home? %}
-  <meta property="twitter:account_id" content="{{ site.meta.twitter_id }}">
-  <meta property="fb:admins" content="806504781">
-  {% endif %}
-  <meta property="og:title" content="{{ title }}">
-  <meta property="og:site_name" content="The Black Swan">
-  <meta property="og:url" content="https://readtheblackswan.lu{{ url }}/">
-  <meta property="og:description" content="{{ meta.description }}">
-  <meta property="og:type" content="article">
-  <meta property="article:author" content="https://www.facebook.com/regiskuckaertz">
-  <link rel="alternate" type="application/rss+xml" href="{{ site.feed_url }}">
-  <script>
-    {% include 'includes/scripts' %}
-    loadCSS('/styles/screen.min.css')
-    {% if meta['customcss'] %};loadCSS('/styles/{{ meta['customcss'] }}'){% endif %}
-  </script>
-  <style>{% include 'includes/critical' %}</style>
+    {% include head.common.html %}
+    <title>{{ page.title }} — {{ site.title }}</title>
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="{{ page.description }}">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="https://readtheblackswan.lu{{ page.url }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image:alt" content="">
+    {% if page['has pen'] %}
+        <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+    {% endif %}
 </head>
 <body>
-  {% include 'includes/header' %}
-  {{ content }}
-  {% include 'includes/footer' %}
-  {{ scripts }}
+    {% include header.html %}
+    {{ content }}
+    {% include footer.html %}
 </body>
 </html>

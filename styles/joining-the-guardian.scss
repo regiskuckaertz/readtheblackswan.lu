@@ -1,0 +1,11 @@
+---
+---
+
+.article-head {
+    background: url('/assets/guardian.svg');
+    margin: 0 -1em;
+
+    @media (min-width: 30em) { margin: 0 -2em; }
+    @media (min-width: 35em) { margin: 0 -3em; }
+    @media (min-width: 52em) { margin: 0 -2em; }
+}
