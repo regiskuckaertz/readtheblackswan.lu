@@ -1,16 +1,9 @@
-{% capture pageTitle %}{{ site.title }} — {{ site.meta.blurb | smartypants }}{% endcapture %}
-{% capture content %}
-  {% for p in site.posts %}
-    {% assign current = p %}
-    {% capture thefuck %}
-    	{{ current.excerpt }}
-    	<p class="article-more"><a href="{{ current.url }}">Keep reading<span class="at"> {{ current.title }}</span></a></p>
-    {% endcapture %}
-    {% if forloop.index0 > 0 %}
-    <hr class="article-pause">
-    {% endif %}
-    {% include 'includes/article' %}
-  {% endfor %} 
-{% endcapture %}
+---
+layout: home
+---
 
-{% include 'layouts/default' %}
+<div class="thoughts">
+    {% for thought in site.posts %}
+        {% include thought.html %}
+    {% endfor %}
+</div>

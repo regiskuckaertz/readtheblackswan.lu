@@ -1,0 +1,43 @@
+---
+title: The Black Swan
+timezone: Europe/London
+collections:
+  experiments:
+    title: Experiments
+    output: true
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: "/thoughts/:title/index.html"
+    layout: article
+permalink: pretty
+blurb: An innocuous journey into the mind of Régis Kuckaertz
+twitter_id: "@regiskuckaertz"
+facebook_id: 806504781
+markdown: redcarpet
+sass:
+  style: compressed
+redcarpet:
+  extensions:
+  - autolink
+  - fenced_code_blocks
+  - lax_spacing
+  - strikethrough
+  - superscript
+  - tables
+  - footnotes
+  - highlight
+  - smart
+gems:
+- jekyll-feed
+exclude:
+- node_modules
+- package.json

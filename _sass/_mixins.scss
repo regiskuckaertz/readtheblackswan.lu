@@ -1,0 +1,102 @@
+@mixin mq($breakpoint) {
+    @media (min-width: map-get($breakpoints, $breakpoint)) {
+        @content;
+    }
+}
+
+@mixin grid-padding(
+    $mobileS:  1,
+    $mobileM:  $mobileS,
+    $mobileL:  $mobileM,
+    $tablet:   $mobileL,
+    $laptop:   $tablet,
+    $desktop:  $laptop
+) {
+    @include grid-space(padding, $mobileS, $mobileM, $mobileL,
+        $tablet, $laptop, $desktop);
+}
+
+@mixin grid-margin(
+    $mobileS:  1,
+    $mobileM:  $mobileS,
+    $mobileL:  $mobileM,
+    $tablet:   $mobileL,
+    $laptop:   $tablet,
+    $desktop:  $laptop
+) {
+    @include grid-space(margin, $mobileS, $mobileM, $mobileL,
+        $tablet, $laptop, $desktop);
+}
+
+@mixin grid-space($prop,
+    $mults...
+) {
+    $i: 1;
+    @each $bp-name, $bp-value in $breakpoints {
+        @media (min-width: $bp-value) {
+            $bp-margins: map-get($margins, $bp-name);
+            @if type-of($bp-margins) == number {
+                #{$prop}-left: $bp-margins * nth($mults, $i);
+                #{$prop}-right: $bp-margins * nth($mults, $i);
+            } @else {
+                #{$prop}-left: map-get($bp-margins, left) * nth($mults, $i);
+                #{$prop}-right: map-get($bp-margins, right) * nth($mults, $i);
+            }
+        }
+        $i: $i + 1;
+    }
+}
+
+@mixin grid-span($cols, $breakpoint) {
+    @media (min-width: #{map-get($breakpoints, $breakpoint)}) {
+        margin-left: calc((100vw - #{map-get($margins, $breakpoint) * 2 + map-get($gutters, $breakpoint) * ($cols - 1)}) / #{map-get($columns, $breakpoint)} * #{$cols});
+    }
+}
+
+@mixin grid-width($cols, $breakpoint) {
+    @media (min-width: #{map-get($breakpoints, $breakpoint)}) {
+        width: get-grid-width($cols, $breakpoint);
+    }
+}
+
+@mixin shape-background(
+    $background-colour,
+    $opacity1,
+    $opacity2,
+    $shape1,
+    $shape2
+) {
+    background: $background-colour;
+
+    @supports (clip-path: none) or (-webkit-clip-path: none) {
+        background: none;
+        position: relative;
+
+        &::before,
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+            background: $background-colour;
+        }
+
+        &::before {
+            -webkit-clip-path: $shape1;
+            clip-path: $shape1;
+            opacity: $opacity1;
+        }
+
+        &::after {
+            -webkit-clip-path: $shape2;
+            clip-path: $shape2;
+            opacity: $opacity2;
+        }
+    }
+}
+
+@import 'noise';

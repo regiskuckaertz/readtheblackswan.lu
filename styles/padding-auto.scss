@@ -1,0 +1,33 @@
+---
+---
+
+#cp1 .centred,
+#cp2 .centred {
+  width: 50%;
+  margin: auto;
+}
+
+.centred,
+.centred-wrapper {
+  background: #a04740;
+  color: contrast(#a04740);
+}
+
+#cp2 .centred {
+  background: none;
+}
+
+#cp3 .centred {
+  width: 50%;
+  padding: 0 calc(50% - 25%);
+}
+
+#cp4 .centred {
+  max-width: 20rem;
+}
+
+@media (min-width: 20em) {
+  #cp4 .centred {
+    padding: 0 calc(50% - 10rem);
+  }
+}

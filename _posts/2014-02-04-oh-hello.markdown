@@ -1,0 +1,15 @@
+---
+title: Oh, hello
+date: 2014-02-04 16:08:00 +00:00
+description: In which I introduce myself and the journey ahead.
+---
+
+I've been meaning to do this for quite some time. It started like it does for anyone, I guess. The occurrence of something one cares about deeply, triggered the surge to voice one's own opinion—as if it was the only thing to do. Then again, and again, and again. At least this is what drove me to finally take my first foray into public writing.
+
+Obviously what you are seeing right now is a bare version of what this site will eventually be. On purpose. For the 10 years I've been creating websites, the same issue has been coming up recurrently: a willingness to do too much and get Everything Right™ at the same time. Being understood in 300 words is already a challenge in itself. Yet the great thing about the digital medium is that it is in constant flux. A thing made to move, to mutate, to continuously become. A playground where every word can be rewritten, every sentence iterated, every paragraph fine-tuned *until it sings*.
+
+I won't go into details right now. There are many challenges that lie ahead: from figuring out the information architecture that best serves the delivery of my soliloquies to engineering the elements—both visible and hidden—into something cohesive, and creating the best experience no matter under what conditions these words are read.
+
+This is just the tip of the iceberg. More is to come, I promise.
+
+This is the Black Swan.

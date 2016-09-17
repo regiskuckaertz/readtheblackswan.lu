@@ -1,0 +1,3 @@
+@function get-grid-width($cols, $breakpoint) {
+    @return calc((100vw - #{map-get($margins, $breakpoint) * 2 + map-get($gutters, $breakpoint) * ($cols - 1)}) / #{map-get($columns, $breakpoint)} * #{$cols});
+}

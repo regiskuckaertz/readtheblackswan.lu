@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Black Swan</title>
+    <description></description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 17 Sep 2016 14:46:45 +0100</pubDate>
+    <lastBuildDate>Sat, 17 Sep 2016 14:46:45 +0100</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>I&#39;m joining The Guardian</title>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;If what they&amp;rsquo;re doing is sooooo great then why don&amp;rsquo;t you go and work there, sucker?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;That&amp;rsquo;s my boss at the Web &amp;amp; UX office. It usually goes like this: Each day, I keep an eye on what&amp;rsquo;s going on in the Web Design industry, making the rounds of a few hundreds blogs and magazines (who said RSS was dead?). Every now and then, I come across something that might be useful to improve our work at the government which I share with the team. The reaction is instantaneous, formulaic one might say.&lt;/p&gt;
+
+&lt;p&gt;Everyone thinks he&amp;rsquo;s making fun of me, but of course I know he isn&amp;rsquo;t&lt;a href=&quot;#fn-1&quot;&gt;&lt;sup id=&quot;sfn-1&quot;&gt;1&lt;/sup&gt;&lt;/a&gt;. Behind that questionable humour is a hidden layer of meaning, a conversation we&amp;rsquo;ve been having for a long time. And so a few weeks ago I gave the only reasonable answer I knew he was eventually expecting, semantically and syntactically fit according to our communication protocol:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Well guess what, motherf#$%@r?!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I&amp;rsquo;m thrilled to announce that as of mid-November, I&amp;rsquo;ll be joining the Commercial Dev team at &lt;a href=&quot;http://www.theguardian.com/&quot;&gt;Guardian News and Media&lt;/a&gt; as a front-end developer for advertising. &lt;q&gt;Whaaaaaaaaaat? Do you know the state the Advertising industry is in right now, like completely freaking out because of the ad-blocking hysteria that has taken the Internet by storm?&lt;/q&gt; Yes, &lt;a href=&quot;/thoughts/advertising-on-the-web/&quot;&gt;advertising sucks&lt;/a&gt;, but it doesn&amp;rsquo;t have to. And that&amp;rsquo;s precisely why it is&amp;mdash;to me at least&amp;mdash;one of the most fascinating challenge I could ever wish to tackle.&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;re at this very interesting point in the history of the Internet where the idea of a useful, usable, seamless, fast website has gone mainstream. It&amp;rsquo;s not just a bunch of geeks patting themselves on the back because they shaved 20ms off a page load time, it&amp;rsquo;s everybody. User Experience is the new black. And so when you happen to learn that, first, the one thing that prevents websites from loading fast are the countless trackers installed in web pages to make (some) advertising work, and second, that there are ways to get rid of them and instantly save on your mobile data plan, your smartphone battery life and on page load times, usually the next thing you do is &lt;a href=&quot;http://thenextweb.com/apple/2015/08/24/ios-9-content-blocking-will-transform-the-mobile-web-ive-tried-it/&quot;&gt;give it a try&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Alarmists would make you think that web advertising is dead, that the content blocking feature in the newly-released iOS 9 marks the end of it, but the reality is much more nuanced than that. Marco Arment best summarises it in his post outlining why he pulled out his own content blocker from the App Store:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Ad blockers come with an important asterisk: while they do benefit a ton of people in major ways, they also hurt some, including many who don’t deserve the hit.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;His app made no distinction between &amp;ldquo;good&amp;rdquo; and &amp;ldquo;bad&amp;rdquo; advertising, which on all accounts is throwing the baby with the bathwater. Cynics would say Arment was &lt;a href=&quot;https://twitter.com/gruber/status/644409410048106496&quot;&gt;shooting himself in the foot&lt;/a&gt; and withdrawing his app was the only reasonable choice he had, but whatever the reason on a fundamental level he&amp;rsquo;s absolutely right: not all of advertising is at fault here. Issues with advertising reported the past few weeks either concern &lt;strong&gt;privacy&lt;/strong&gt;, i.e. the bread-and-butter of a very specific&amp;mdash;albeit very lucrative&amp;mdash;part of the Advertising industry that&amp;rsquo;s essentially based on &lt;a href=&quot;http://blogs.law.harvard.edu/doc/2015/08/12/separating-advertisings-wheat-and-chaff/&quot;&gt;spying on you&lt;/a&gt;, or &lt;strong&gt;speed&lt;/strong&gt;, where a single page can contain &lt;a href=&quot;http://blog.lmorchard.com/2015/07/22/the-verge-web-sucks/&quot;&gt;dozens of external widgets&lt;/a&gt;&lt;a href=&quot;#fn-2&quot;&gt;&lt;sup id=&quot;sfn-2&quot;&gt;2&lt;/sup&gt;&lt;/a&gt; and torpedo your experience of a website.&lt;/p&gt;
+
+&lt;p&gt;It would be easy to dismiss these as purely technical problems, but there are whole business models based around them, and so finding a solution will be more complicated than turn everything off and start from scratch. Besides, one must not forget that advertising is also what makes &lt;a href=&quot;http://www.theguardian.com/&quot;&gt;the best journalism in the world&lt;/a&gt; possible in the first place. What is at risk here is more than people losing their job&amp;mdash;although at such a scale this is nothing but catastrophic&amp;mdash;, it&amp;rsquo;s our fundamental right to be active participants in a democracy; something that is &lt;del&gt;essential&lt;/del&gt; &lt;a href=&quot;http://fadeyev.net/the-role-of-the-press/&quot;&gt;vital&lt;/a&gt; to the well-being of Society.&lt;/p&gt;
+
+&lt;p&gt;Online publishing has most certainly come at a crossroads and &lt;a href=&quot;http://www.niemanlab.org/2015/09/press-publish-16-jason-kint-on-how-worried-publishers-should-be-about-the-arrival-of-adblockers-on-mobile/&quot;&gt;will take a hit&lt;/a&gt; no matter what. But that kind of thing already happened in the past, it&amp;rsquo;s the proverbial tipping point where an industry needs to reinvent itself. Says &lt;a href=&quot;https://signalvnoise.com/posts/3944-disruption-is-better-when-its-other-peoples-jobs&quot;&gt;David&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The sooner you stop fighting the present, the sooner you can get to work on figuring out the future.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I recently had two choices: either I keep on building websites for people who don&amp;rsquo;t really care or I join a team of people &lt;a href=&quot;https://www.theguardian.com/info/developer-blog&quot;&gt;at the top of their game&lt;/a&gt; and tackle a problem that might change the face of a multi-billion dollar industry forever.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Well guess what, motherf#$%@r?!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+    &lt;ol&gt;
+        &lt;li id=&quot;fn-1&quot;&gt;That&amp;rsquo;s not entirely true, but he has been entertaining a long-standing jealousy against me since I joined the office&amp;mdash;probably because I&amp;rsquo;m better-looking. &lt;a href=&quot;#sfn-1&quot; title=&quot;Back to text&quot;&gt;↑&lt;/a&gt;&lt;/li&gt;
+        &lt;li id=&quot;fn-2&quot;&gt;There are many different things that are included here, not only advertising: social sharing widgets, analytics probes, Youtube videos, tweets, Slideshare presentations &amp;hellip; essentially every embed coming from an external website. &lt;a href=&quot;#sfn-2&quot; title=&quot;Back to text&quot;&gt;↑&lt;/a&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 17 Sep 2015 16:06:00 +0100</pubDate>
+        <link>/thoughts/joining-the-guardian/index.html</link>
+        <guid isPermaLink="true">/thoughts/joining-the-guardian/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Web Design Friends, part 1</title>
+        <description>&lt;p&gt;TL;DR We need the local web design industry to raise its game if it wants to thrive in a global economy where DIY solutions are getting cheaper and better. This cannot be done without the help of design-focused associations like &lt;a href=&quot;http://designfriends.lu&quot;&gt;Design Friends&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;i&gt;Because the topic is quite complex to articulate, I found myself flirting with the 3000 words threshold&lt;a href=&quot;#fn-1&quot;&gt;&lt;sup id=&quot;sfn-1&quot;&gt;1&lt;/sup&gt;&lt;/a&gt; sooner than it takes to say “whoops a daisy” and ended up splitting the whole thing into two parts. And so, this is part one of an article on the state of the web design industry. Here, I’ll examine what is currently happening in the industry and explain why this represents a major turning point for local businesses. The second part will focus on figuring out potential ways for people working in the field to thrive in this shifting economy.&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;So, what’s going on?&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;I was browsing the Web the other day, in search of something different from what I usually indulge myself with, when I discovered the brasserie Montefiore Sul Palco&amp;rsquo;s &lt;a href=&quot;http://montefiore.lu/&quot;&gt;website&lt;/a&gt;. Call it occupational hazard if you want, but more often than not, when I visit a website for the first time, I spend more time peering under the hood&amp;mdash;inspecting the markup, styles and scripts&amp;mdash;rather than looking at the rendered result itself. In fact, this happens only rarely when I visit local restaurants websites, because 99% of them look like crap and you can assume that, if what’s visible to everyone has been given so little care, then there is zero chance it’s going to be any better for those few who dabble in tag soup. But then here it was, the holy 1% that showed some love&lt;a href=&quot;#fn-2&quot;&gt;&lt;sup id=&quot;sfn-2&quot;&gt;2&lt;/sup&gt;&lt;/a&gt;; the site that treated its content respectfully by giving it room to breathe and the graphical means to express itself; the site that featured carefully crafted photography supporting the text and neither of those DRM-free, meaningless smiling faces, nor those badly-cropped, dull shots that you see just about everywhere else; the site that actually invited visitors in. It wasn’t very hard to find out that it was powered by WordPress, with a &lt;a href=&quot;http://themeforest.net/item/rosa-an-exquisite-restaurant-wordpress-theme/7920093&quot;&gt;theme anyone can buy&lt;/a&gt; for a couple of bucks, pretty much left untouched&amp;mdash;a good sign this website was made by an amateur&lt;a href=&quot;#fn-3&quot;&gt;&lt;sup id=&quot;sfn-3&quot;&gt;3&lt;/sup&gt;&lt;/a&gt;. Even the occasional discovery of a local website done with &lt;em&gt;taste&lt;/em&gt; would&amp;rsquo;ve gone completely forgotten by me, if it weren&amp;rsquo;t for the fact that it was, supposedly, built without the help of a professional designer. Coincidentally, that event took me right in the middle of a streak of articles about the worrisome shift that is happening right now in the design industry. A shift that I fear will have dramatic consequences for local businesses here in Luxembourg&amp;mdash;and if anything, Montefiore’s website shows it already began.&lt;/p&gt;
+
+&lt;p&gt;I’ve been ruminating on the state of the web industry in Luxembourg for quite a long time, haplessly complaining to those around me that it’s not making any real progress, that it’s all about imitation of trends&amp;mdash;some of which are already old-fashioned&amp;mdash;that nothing groundbreaking ever happens and that it still is considered as a toy by many people. There are so many issues that it’s hard to even know where to start. And it’s not like you have to look long and hard to find some examples. Just compare Montefiore’s website with household businesses’ like &lt;a href=&quot;http://corporate.arcelormittal.com/&quot;&gt;ArcelorMittal&lt;/a&gt;, &lt;a href=&quot;http://www.luxair.lu/&quot;&gt;Luxair&lt;/a&gt;, &lt;a href=&quot;http://tango.lu/&quot;&gt;Tango&lt;/a&gt;, &lt;del&gt;or perhaps more strikingly, &lt;a href=&quot;http://www.cactus.lu/fr&quot;&gt;Cactus&lt;/a&gt;&lt;/del&gt;. &lt;ins&gt;While I was researching for this article, Cactus’s website got a fresh coat of paint (admittedly, quite an undertaking and a great improvement compared to the horrible hodgepodge it used to be&amp;mdash;and yet I can’t help but notice how strikingly similar browsing the website of Cactus is to browsing Montefiore’s; that sameness is a much more pervasive, vicious and difficult problem which is worth its own &lt;a href=&quot;http://www.elischiff.com/blog/2015/4/21/fall-of-the-designer-part-iii-responsive-design&quot;&gt;series&lt;/a&gt; of &lt;a href=&quot;https://medium.com/@intercom/has-visual-design-fallen-flat-a155cb6a5cda&quot;&gt;articles&lt;/a&gt;).&lt;/ins&gt; The fact that these sites have different audiences and business goals is actually orthogonal from the argument that their design&lt;a href=&quot;#fn-4&quot;&gt;&lt;sup id=&quot;sfn-4&quot;&gt;4&lt;/sup&gt;&lt;/a&gt; feels and looks extremely outdated, sluggish, repellent even.&lt;/p&gt;
+
+&lt;p&gt;It is this dissonance of a website that looks perfectly fine and was produced at a much lower budget than these presumably cost that makes me worry. Now, I’m not particularly concerned about these high-profile examples, their budget may very well be in the 99th percentile and we can all but hope they’ll follow the lead of Cactus. I also don&amp;rsquo;t worry about the (rare) agencies who can actually sell Design; these practitioners know how to differentiate themselves from cheap, plug-and-play solutions&amp;mdash;even of &lt;a href=&quot;http://themeforest.net/&quot;&gt;ThemeForest&lt;/a&gt;’s quality-level. But what about all the others? The small and medium businesses that make up the vast majority of local web agencies’ hunting ground. What will they choose to do when they&amp;rsquo;ll start to think about a possible redesign: hiring or going the Do-It-Yourself route?&lt;/p&gt;
+
+&lt;h2&gt;The commoditization of websites&lt;/h2&gt;
+
+&lt;p&gt;DIY solutions, even commercial ones, have existed ever since the Web has dynamic pages. Today, these products are not the emblem of cheap and dirty work they used to be; their quality has sky-rocketed. Championed by the likes of &lt;a href=&quot;http://squarespace.com/&quot;&gt;Squarespace&lt;/a&gt;, &lt;a href=&quot;http://virb.com/&quot;&gt;Virb&lt;/a&gt;, &lt;a href=&quot;https://wordpress.com/&quot;&gt;WordPress&lt;/a&gt; or &lt;a href=&quot;http://www.shopify.com/&quot;&gt;Shopify&lt;/a&gt;&amp;mdash;the so-called &lt;strong&gt;CMS as a Service&lt;/strong&gt; product that can turn anyone into a website designer/developer&amp;mdash;there are now a lot of affordable and great options a prospecting client can turn to. And these products are designed so well they make anyone who&amp;rsquo;s looking at a regular CMS’s interface want to puke.&lt;/p&gt;
+
+&lt;p&gt;That in itself may be enough to convert many people, but of course the buck doesn’t stop there: the people behind these products have managed to put &lt;a href=&quot;http://www.squarespace.com/feature-index/&quot;&gt;a staggering amount of power&lt;/a&gt; in the hands of their users. And that, dear reader, is the nail in the coffin. How much does it cost to hire someone and build the same thing from scratch? I guess now you see the point I’m trying to drive home. Chris Butler of North American agency Newfangled  &lt;a href=&quot;https://www.newfangled.com/ad-agency-web-development-partner/&quot;&gt;doesn&amp;rsquo;t seem bothered&lt;/a&gt; about softwares &lt;i lang=&quot;fr&quot;&gt;à la&lt;/i&gt; Squarespace, but he hints at those who could be (emphasis mine):&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;They’ve created software […] that makes customizing the basics of a website […] as easy as clicking a button or dragging and dropping something in place. What they’re offering is beyond satisfactory to those who couldn’t have done it for themselves — &lt;mark&gt;or paid someone else to do it for them&lt;/mark&gt; — five years ago. If that is your client, then I suppose you should be afraid of Squarespace.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;How many business owners over here are willing to pay the high price when they can get something that is more than good enough for a fraction of it? Even if the trade-off is to lose some flexibility, I&amp;rsquo;m betting the answer to that question is: not a lot. Indeed, for a market like ours, where the level of competition is usually very low, this makes perfect sense: there is hardly any incentive to go beyond the &amp;ldquo;just enough.&amp;rdquo; And with the rise in quality of these aforementioned products, that reasoning in the mind of a business owner would be quite understandable&lt;a href=&quot;#fn-5&quot;&gt;&lt;sup id=&quot;sfn-5&quot;&gt;5&lt;/sup&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;My line of thinking should be clear now: if, as a professional web designer, you can&amp;rsquo;t differentiate yourself from DIY solutions and you can&amp;rsquo;t &lt;em&gt;at the very least&lt;/em&gt; do better than the pre-fabricated solutions offered by Squarespace et al, that means your services are a commodity&amp;mdash;and your days are numbered.&lt;/p&gt;
+
+&lt;p&gt;The astute reader will notice two different problems emerge from there. One, many business owners do not recognize the true value of Design. Not that it&amp;rsquo;s their fault; if this responsibility lies in anyone&amp;rsquo;s hand, it is in those businesses’ whose job is to sell Design. But if this job isn&amp;rsquo;t done well (or at all), then it&amp;rsquo;s perfectly normal clients won&amp;rsquo;t ever pay for it. Two, many local web professionals need to get up to speed with the knowledge, the tools and the techniques of Web Design&amp;mdash;and User Experience in general&amp;mdash;that can harness what the Web enables us to do today. Recall examples cited at the beginning of this article. Much has changed within the last ten years, but to say that is akin to stating a superficial tautology. What makes the Web unique is that it is constantly and rapidly changing; those who fail to embrace that change are eventually doomed.&lt;/p&gt;
+
+&lt;p&gt;These are challenges web professionals of Luxembourg &lt;strong&gt;must&lt;/strong&gt; undertake, at the risk of seeing their clients taken away by DIY solutions&amp;hellip; or smarter competitors.&lt;/p&gt;
+
+&lt;h2&gt;The slow demise of client services&lt;/h2&gt;
+
+&lt;p&gt;Despite the fact that they&amp;rsquo;d probably argue the contrary, seeing and understanding the true value of Design is a rare characteristic of any business owner, one that few agencies have the chance to witness in their own clients. Too many times have I witnessed people confuse design with mere decoration, the painting of pretty pictures, instead of the driving force that can give them a substantial edge over their competition and ultimately boost their profits; I certainly am not alone in this.&lt;/p&gt;
+
+&lt;p&gt;Following this line of thought, it wouldn&amp;rsquo;t come as a surprise that web agencies are having a tough time getting new projects. And indeed, &lt;a href=&quot;https://medium.com/@Brilliantcrank/the-future-of-the-digital-design-agency-in-the-united-states-f03f5c786276&quot;&gt;they are&lt;/a&gt;. Yet paradoxically, 2014 was a great year for Design&amp;mdash;at least on paper. Many large corporations, like GE or IBM, started investing a lot in it. Alas, this money was not used to hire agencies’ services but instead served to set up their own teams, with the effect of gobbling up both large portions of the market and the pool of talents available for hire&amp;mdash;sometimes going as far as eating away agencies&amp;rsquo;s contingent.&lt;/p&gt;
+
+&lt;p&gt;In reaction to the acquisition of UX heavyweight &lt;a href=&quot;http://www.adaptivepath.com/ideas/adaptive-path-where-were-going-next/&quot;&gt;Adaptive Path&lt;/a&gt; and the announcement of &lt;a href=&quot;https://twitter.com/odannyboy/status/525672272749555712&quot;&gt;Smart Design closing its doors&lt;/a&gt;, co-founder of &lt;abbr title=“Adaptive Path”&gt;AP&lt;/abbr&gt; Peter Merholz &lt;a href=&quot;http://www.peterme.com/2014/10/24/san-francisco-design-agencies-feeling-the-squeeze/&quot;&gt;explains&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;What’s actually happening […] is that client’s &lt;ins class=&quot;sic&quot;&gt;sic&lt;/ins&gt; willingness to buy design from agencies is decreasing, and project budgets have been shrinking. And the prevailing theory is that this is happening because companies are building in-house teams, and that’s where their ‘design budgets’ are going.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;As the year drew to a close, the founders of beloved agency Teehan+Lax &lt;a href=&quot;http://www.teehanlax.com/story/our-next-act&quot;&gt;announced&lt;/a&gt; they were moving to Facebook, as if to confirm what former nytimes.com design director Khoi Vinh &lt;a href=&quot;http://www.subtraction.com/2011/07/20/the-end-of-client-services/&quot;&gt;anticipated back in 2011&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The most critical time for designers to be involved in a digital product is &lt;em&gt;all the time&lt;/em&gt;, but it’s perhaps most important for them to stick around after the launch, when they can see how a real user base is using it, and then amend, refine, revise and evolve it. But it’s at just about this time that most studios are preparing invoices and shuffling their staff on to other clients’ projects.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The massive corporate takover happening right now on the other side of the ocean is at the same time &lt;a href=&quot;http://www.wired.com/2014/12/disappearing-business-of-design/&quot;&gt;quite complex and fairly easy to make sense of&lt;/a&gt;. But the question that should be on your lips is: is there any chance this will ever happen in Luxembourg?&lt;/p&gt;
+
+&lt;p&gt;By all accounts, even big firms in the financial sector have a digital agenda that is orders of magnitude less impressive than the Facebooks and IBMs of the world. This might very well change in the future, since the Luxembourg Government is betting high on digital as the backbone of a thriving economy, with the &lt;a href=&quot;https://www.gouvernement.lu/4103901/20-digital-letzebuerg&quot;&gt;recent launch&lt;/a&gt; of its &lt;i&gt;Digital Lëtzebuerg&lt;/i&gt; initiative. And so the question remains. Besides, the phenomenon has &lt;a href=&quot;http://www.andybudd.com/archives/2015/03/the_death_of_the_agency_has_been_greatly/&quot;&gt;already appeared&lt;/a&gt; not far from here:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The tech giants have started to reach their local hiring event horizon, which is one of the reasons they’ve started setting up outposts in London - to gather up all the local designers and developers they couldn’t (or wouldn’t necessarily want to) relocate.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;As Andy Budd puts it, there are reasons to believe the death of client services has been over-exaggerated. But it is a cause for concern nonetheless, and one that should occupy the mind of everyone that has a stake in the business of Design.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Slowly but surely, the market is eroding on both ends. With ads by Squarespace and The Grid popping up all over the place, the fact that these solutions exist and basically cost nothing at all won&amp;rsquo;t take a long time before getting to small business owners’ ears. Factor in the emerging trend of building in-house teams and the local creative industry just got itself a pretty nasty situation. If this ever happens, some agencies in Luxembourg are going to be in deep&amp;mdash;as in closing-their-doors-deep&amp;mdash;trouble.&lt;/p&gt;
+
+&lt;p&gt;In the second part of this article, I&amp;rsquo;ll explore what I think are worthy areas for limiting damage and how associations like Design Friends can help in this endeavour.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn-1&quot;&gt;At the average-adult reading speed of 300 words per minute, that’s &lt;em&gt;10 minutes&lt;/em&gt; of your time, which is in all honesty way above the time &lt;em&gt;I&lt;/em&gt; would spend on a piece like this one. &lt;a href=&quot;#sfn-1&quot; title=&quot;Back to text&quot;&gt;↑&lt;/a&gt;
+    &lt;li id=&quot;fn-2&quot;&gt;Still, tag soup. The horrible genre that comes free of charge with the default configuration of many open source CMSs. &lt;a href=&quot;#sfn-2&quot; title=&quot;Back to text&quot;&gt;↑&lt;/a&gt;
+    &lt;li id=&quot;fn-3&quot;&gt;In the sense that it was not made by a professional web designer. &lt;a href=&quot;#sfn-3&quot; title=&quot;Back to text&quot;&gt;↑&lt;/a&gt;
+    &lt;li id=&quot;fn-4&quot;&gt;Design as in “&lt;a href=&quot;http://www.nytimes.com/2003/11/30/magazine/the-guts-of-a-new-machine.html&quot;&gt;it’s how it works&lt;/a&gt;” reminiscent of the “form follows function” ethos of yore. &lt;a href=&quot;#sfn-4&quot; title=&quot;Back to text&quot;&gt;↑&lt;/a&gt;
+    &lt;li id=&quot;fn-5&quot;&gt;Alas, it is also short-sighted. With the &lt;a href=&quot;https://www.gouvernement.lu/4103901/20-digital-letzebuerg&quot;&gt;governement&amp;rsquo;s strategy&lt;/a&gt; currently in place, outside companies big and small will eventually plant their roots in Luxembourg, eating away portions of the market from local businesses. &lt;a href=&quot;#sfn-5&quot; title=&quot;Back to text&quot;&gt;↑&lt;/a&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Fri, 03 Jul 2015 16:04:00 +0100</pubDate>
+        <link>/thoughts/web-design-friends/index.html</link>
+        <guid isPermaLink="true">/thoughts/web-design-friends/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Advertising on the Web</title>
+        <description>&lt;p&gt;I think we can say that we have essentially figured out how to design websites. Today, the idea of a fixed-width page designed to fit in a very specific resolution, cluttered with distracting graphics, modal windows, popups and whatnots, and content copy-pasted from jargon-laden PDF brochures seems ludicrous. We know the why, the what and the how to create websites that help people and businesses.&lt;/p&gt;
+
+&lt;p&gt;Our mastery of the craft has matured. The Web is not considered as the offspring of print and TV anymore; it has its own body of knowledge, its science, its engineering and its art. All the elements that make up web pages are now under our complete control… all except advertisements.&lt;/p&gt;
+
+&lt;p&gt;To most of us, the word itself is repulsive; its simple utterance brings scores of bad memories to our minds: from years and years of unsolicited sales pitches (both on- and offline) to unscrupulous techniques to trick us into buying something. It is not surprising that we react so negatively though, today’s advertising—i.e. the many annoying ways it manifests itself in inside a page—isn’t any different from the salesman of yesteryear forcing his foot into the door so that you have no choice but to listen to what he has to say.&lt;/p&gt;
+
+&lt;p&gt;And yet, advertising is a necessity. Many businesses, in the publishing industry in particular, depend on it. Without it, there is no money, and without money, there is no content. In that sense, they’re not very different from forms: nobody &lt;em&gt;wants&lt;/em&gt; to use them, but everybody &lt;em&gt;has&lt;/em&gt; to at some point. &lt;/p&gt;
+
+&lt;p&gt;To me, the problem cannot be better summarised than by unearthing the tension that lies at the heart of advertising, which is that both advertising and content&amp;mdash;the very content it’s making possible to produce&amp;mdash;vie for the same limited resource: users’ attention. Stated like that, it is unsurprising that, given the limited amount of screen real estate they get, advertisers would go to great lengths to (literally) capture users’ attention, sometimes going as far as using black-hat techniques.&lt;/p&gt;
+
+&lt;p&gt;Isn’t there a way out of this? Is there a world where content and advertising could go hand in hand? In other words: can advertising contribute to, rather than fight against, a great overall user experience? Just like &lt;a href=&quot;http://www.lukew.com/resources/web_form_design.asp&quot;&gt;for forms&lt;/a&gt;, yes I believe it can. And if anything, this seems to be a fascinating design challenge.&lt;/p&gt;
+
+&lt;h2&gt;The state of advertising&lt;/h2&gt;
+
+&lt;p&gt;One should not look very long to form an opinion on the current state of in-page ads.&lt;/p&gt;
+
+&lt;h3&gt;They are the epitome of ugliness&lt;/h3&gt;
+
+&lt;p&gt;When was the last time you stared at an ad, in awe, thinking how great it looked and how well it inserted itself within the narrative of the page? Let me guess: &lt;em&gt;Never&lt;/em&gt;. How often have you scrolled past that ugly blinking thing and paid zero attention to what it was trying to say? &lt;em&gt;Always&lt;/em&gt;, right?&lt;/p&gt;
+
+&lt;p&gt;Notice something here? It seems striking to me that the very first reason why people overlook ads is &lt;em&gt;because many of them were intentionally designed to provoke such a reaction&lt;/em&gt;. This is flabbergasting to say the least, given how obvious it is that the only result one can hope for is sheer repulsion. I think we can all agree this is practically bad both for the consumer who is subjected to those atrocities, and to the businesses being represented by the ads themselves.&lt;/p&gt;
+
+&lt;p&gt;And yet, they keep on being designed that way, despite the many studies that have shown the effect of aesthetics on subjective credibility and usability. &lt;a href=&quot;http://www.brainyquote.com/quotes/quotes/a/alberteins133991.html&quot;&gt;Insanity&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It doesn’t take an artist to notice how ugly they are. Like grease stains on an otherwise clean page, they look amateurish and jarring. &lt;strong&gt;It’s no wonder web designers hate them.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3&gt;They are the anti-experience&lt;/h3&gt;
+
+&lt;p&gt;Some of the worst usability mistakes on the Web involve the presence of advertising. In no particular order: slowing down or breaking web pages, trapping keyboard and mouse, obstructing the content, blinking or playing animations unstoppably, being disguised as real content, revealing hidden parts on hover or other unintentional gesture, and so on and so forth, plus all the tracking and stuffing and cloaking.&lt;/p&gt;
+
+&lt;p&gt;&lt;ins&gt;&lt;strong&gt;Update&lt;/strong&gt;: Quartz just published a very compelling case against intrusive advertisements, saying that &lt;a href=&quot;http://qz.com/412158/ad-blocking-software-has-figured-out-native-content-threatening-the-new-media-economy/&quot;&gt;ad blockers are winning the race&lt;/a&gt;. I guess you get what you deserve. I think the move to detect and block native advertising was a mistake though; while I don&amp;rsquo;t consider native ads &lt;em&gt;in their current form&lt;/em&gt; a good solution in the long run, sometimes you have to explore all avenues, and sometimes that means going too far.&lt;/ins&gt;&lt;/p&gt;
+
+&lt;p&gt;This may be inevitable, given the space advertising has been given from the outset, that advertisers resort to any device they have at hand to achieve their goals—after all, no one ever comes on a website for the purpose of experiencing its ads. And yet, it seems almost like a childish response to overdo it with countless layers of distracting effects.&lt;/p&gt;
+
+&lt;p&gt;(At this point, it would be unfair not to mention that there are great, ethical ads, which ultimately have a positive effect on their audience and the business’s bottom line.)&lt;/p&gt;
+
+&lt;p&gt;It is one thing to try to attract people’s attention, but taking away their freedom by preventing them to see or interact with the content is another. &lt;strong&gt;It’s no wonder users hate them.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3&gt;They’re essentially Trojan horses&lt;/h3&gt;
+
+&lt;p&gt;It’s not very hard to understand that, once you allow a third-party to take control over the page, you believe that this third-party not mess with your most valuable asset: your audience’s trust.&lt;/p&gt;
+
+&lt;p&gt;Given how much care is taken to test and debug and continually integrate, how much an effort a team makes to deliver a smooth experience to everyone, only to realise it has been ruined by a 300 by 250 pixels image hosted elsewhere that takes seconds to load … &lt;strong&gt;It’s no wonder web developers hate them.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3&gt;They’re a conflict of interest&lt;/h3&gt;
+
+&lt;p&gt;It’s worth mentioning once again that they practically work against the very thing they’re supposed to support. Even if people have developed effective &lt;a href=&quot;http://en.wikipedia.org/wiki/Banner_blindness&quot;&gt;defence mechanisms&lt;/a&gt;, the fact is that ads take precious seconds away from the carefully crafted content of the page.&lt;/p&gt;
+
+&lt;p&gt;In today’s day and age of ever-increasing notifications and &lt;a href=&quot;http://www.nicholascarr.com/?page_id=16&quot;&gt;superficial thinking&lt;/a&gt;, a few seconds might make the difference and burn to the grounds the months of research, of writing, of editing and of designing that went into the creation of an article. &lt;strong&gt;It’s no wonder journalists hate them.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3&gt;They’re using obsolete technology&lt;/h3&gt;
+
+&lt;p&gt;Flash is so last century. No, really. Forget smartwatches, smartphones and tablets. Forget desktop browsers where the plug-in is either absent or inactive—the first thing I do when I install a browser is to disable the Flash plug-in… pages load much faster plus I get rid of 80% ads.&lt;/p&gt;
+
+&lt;p&gt;Flash is a dying technology, at least on the Web. And yet, as if the situation wasn’t complicated enough, most advertisements are done in Flash.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;This situation is really unfortunate, given that online advertising may well be the only viable way to keep online publications afloat in the long run. While many smart people like &lt;a href=&quot;http://www.markboulton.co.uk/journal/responsive-advertising&quot;&gt;Mark Boulton&lt;/a&gt; or &lt;a href=&quot;http://rogerblack.com/blog/post/the_holy_grail_part_i&quot;&gt;Roger Black&lt;/a&gt; have explored the business implications of online advertising in a multi-device world, I find it perplexing that ads do not receive the attention they deserve on the design side. By their very purpose, they should be considered first-class citizens, just like content.&lt;/p&gt;
+
+&lt;p&gt;Surely, there must be ways to deliver ads that are not intrusive and yet manage to capture the user’s interest at the right time—a “welcome distraction for the eye,” as Mike Monteiro &lt;a href=&quot;http://muledesign.com/2015/03/all-the-news-where-it-needs-to-fit&quot;&gt;puts it&lt;/a&gt;. Surely, we can find better solutions than the dull, bare design promulgated by niche networks like The Deck or Fusion Ads. By voluntarily cutting down on the effects, they improve the overall user experience, yes… but is this teeny tiny picture enough to imprint people’s memory? I doubt it.&lt;/p&gt;
+
+&lt;p&gt;Looking at the list above, I feel like the challenge is surmountable. Some people are already testing the waters. Examples that come to mind are the promising &lt;a href=&quot;http://typecast.com/blog/mark-boulton-on-html-ads&quot;&gt;responsive ads&lt;/a&gt; demoed by Mark Boulton and his team at Monotype; or the delightfully immersive &lt;a href=&quot;http://www.adtile.me/motion-ads/&quot;&gt;motion ads&lt;/a&gt; developed by Adtile. All are using standard technologies available in today’s browsers, on all platforms. And the list keeps growing: video tracks, WebGL, SVG, speech recognition, device orientation, you name it. There’s a whole universe of possibilities to explore here.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Every year, thousands of people gather in theatres across the globe to attend the Night of the AdEaters, a five-hour long marathon spent watching TV commercials; is it too far-fetched to think that the Web could, too, boast high standards of multimedia, interactive advertising, and rally masses?&lt;/p&gt;
+</description>
+        <pubDate>Tue, 26 May 2015 16:03:00 +0100</pubDate>
+        <link>/thoughts/advertising-on-the-web/index.html</link>
+        <guid isPermaLink="true">/thoughts/advertising-on-the-web/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>padding: 0 auto;</title>
+        <description>&lt;p&gt;One of the most common, if not ubiquitous, graphical idiom on the Web is the centred layout. You can see it across the whole spectrum, from personal weblogs like the one you&amp;rsquo;re reading right now, to larger-scale publishing platforms, social networks, famous brands, public websites, or &amp;hellip; well, everywhere. It&amp;rsquo;s also one of the first things you learn to do when you start writing CSS.&lt;/p&gt;
+
+&lt;p&gt;So let&amp;rsquo;s say we have a &lt;code&gt;DIV.centred&lt;/code&gt;, all it takes is to give it dimensions and there we go:&lt;/p&gt;
+
+&lt;p data-height=&quot;185&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;yJbdLz&quot; data-default-tab=&quot;css,result&quot; data-user=&quot;regiskuckaertz&quot; data-embed-version=&quot;2&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/regiskuckaertz/pen/yJbdLz/&quot;&gt;yJbdLz&lt;/a&gt; by Regis Kuckaertz (&lt;a href=&quot;http://codepen.io/regiskuckaertz&quot;&gt;@regiskuckaertz&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;All the magic happens when you use the auto keyword to calculate margins: it gives left and right margins an equal value, which basically means that the element is centred horizontally with respect to the edges of its containing block.&lt;/p&gt;
+
+&lt;p&gt;Now what if we wanted the element&amp;rsquo;s background to change arbitrarily and expand horizontally to the edges of the containing block? To keep the element&amp;rsquo;s content centred, we&amp;rsquo;d have no choice but to introduce another element:&lt;/p&gt;
+
+&lt;p data-height=&quot;214&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;PzmAwk&quot; data-default-tab=&quot;css,result&quot; data-user=&quot;regiskuckaertz&quot; data-embed-version=&quot;2&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/regiskuckaertz/pen/PzmAwk/&quot;&gt;PzmAwk&lt;/a&gt; by Regis Kuckaertz (&lt;a href=&quot;http://codepen.io/regiskuckaertz&quot;&gt;@regiskuckaertz&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For many reasons, this pattern is ugly. It doesn&amp;rsquo;t take an expert to see why, though, as obviously the complexity of the code literally doubles. Plus the usual kvetch against presentational markup: it makes the DOM more complex, increases maintenance costs and does not scale at all in a responsive world. &amp;ldquo;But it&amp;rsquo;s one DIV,&amp;rdquo; I hear you say. Sure, but a brief audit of the examples mentioned above reveals it can occur many times within the same document.&lt;/p&gt;
+
+&lt;p&gt;Wouldn&amp;rsquo;t it be great if we could automatically pad elements horizontally, just like we can for margins? After all, what we&amp;rsquo;re dealing with is the geometry of the &lt;code&gt;DIV.centred&lt;/code&gt; element, in this case its padding box, definitely not the responsibility of its children. It turns out we can, now that the &lt;code&gt;calc()&lt;/code&gt; function has some great support. Here it is:&lt;/p&gt;
+
+&lt;p data-height=&quot;192&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;pbPXvW&quot; data-default-tab=&quot;css,result&quot; data-user=&quot;regiskuckaertz&quot; data-embed-version=&quot;2&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/regiskuckaertz/pen/pbPXvW/&quot;&gt;pbPXvW&lt;/a&gt; by Regis Kuckaertz (&lt;a href=&quot;http://codepen.io/regiskuckaertz&quot;&gt;@regiskuckaertz&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This example is trivial because we&amp;rsquo;re using percentages, but many times are dimensions expressed in other units and that&amp;rsquo;s where &lt;code&gt;calc()&lt;/code&gt; comes in handy: all you need to do is remove half the width of the content box from 50% of the width of the containing block.&lt;/p&gt;
+
+&lt;p&gt;And it also works when &lt;code&gt;max-width&lt;/code&gt; is used instead of &lt;code&gt;width&lt;/code&gt;, although in that case you&amp;rsquo;ll have to use a media query:&lt;/p&gt;
+
+&lt;p data-height=&quot;247&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;vKmqOB&quot; data-default-tab=&quot;css,result&quot; data-user=&quot;regiskuckaertz&quot; data-embed-version=&quot;2&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/regiskuckaertz/pen/vKmqOB/&quot;&gt;vKmqOB&lt;/a&gt; by Regis Kuckaertz (&lt;a href=&quot;http://codepen.io/regiskuckaertz&quot;&gt;@regiskuckaertz&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;There you go.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 27 Mar 2015 16:56:00 +0000</pubDate>
+        <link>/thoughts/padding-auto/index.html</link>
+        <guid isPermaLink="true">/thoughts/padding-auto/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Hot Tub Time Machine</title>
+        <description>&lt;p&gt;On October 23rd, I had the honour of speaking at the &lt;a href=&quot;http://www.sae-alumni-convention.org/&quot;&gt;tenth alumni convention&lt;/a&gt; of the School of Audio Engineering in Berlin.&lt;/p&gt;
+
+&lt;p&gt;The idea of sharing to a younger audience what I’ve learned along the way has been one of the rationales behind this journal, and thus I used this opportunity to talk about things that would’ve eventually ended up as long-form articles here. Surprisingly, perhaps half the audience were not alumni—heck, they had not even started their studies—something I really hadn’t foreseen.&lt;/p&gt;
+
+&lt;p&gt;Public speaking is one of those things I find both frightening and exciting. As a regular audience attendee, I have come to expect a lot from public speakers; that they challenge my current thinking, that they make me want to learn new things, that they do not bore me. I tried to set the same standards to myself, although whether I succeeded is anyone’s guess.&lt;/p&gt;
+
+&lt;p&gt;You’re probably wondering why this title. Oh dear. Well, it’s an unfortunate turn of events: I had just settled on the subject “what would I say to my 18-year old self?” when one day I found myself in dire need of turning my brains off and came across &lt;a href=&quot;http://www.imdb.com/title/tt1231587/&quot;&gt;this movie&lt;/a&gt;. I really wished there was more to it, but no.&lt;/p&gt;
+
+&lt;p&gt;So, without further ado, here’s the script of the talk I gave, along with a few side notes for additional background.&lt;/p&gt;
+
+&lt;h2&gt;Don’t trust me&lt;/h2&gt;
+
+&lt;p&gt;I would like to start with a huge disclaimer. Do not trust me, or anyone you listen to, or read. And by that I don’t mean that you shouldn’t pay attention. Quite the opposite in fact. Do it, to your heart’s content. Just don’t use it as an excuse to not do the things by yourself.&lt;/p&gt;
+
+&lt;p&gt;In fact, make a rule to yourself to open your ears as much as possible, listen to the same subject covered by different people with various backgrounds, different perspectives. Compare those points of views. See where they agree and where they differ. Spot the contradictions, there are always contradictions. Make up your own opinion. The more you’ll do that, the more you’ll understand that for many problems there is an infinite number of solutions, that many of them are neither good nor bad but may just work in a particular context.&lt;/p&gt;
+
+&lt;p&gt;Just come up with ideas of your own. People who barely reap the fruits of others’ labour all have one thing in common: their work is lifeless, without stamina. Like a movie where excessive special effects try to provide for the lack of gravitas in the actors’ play. And that sucks, it’s a waste of everybody’s time. Oh I’m sure you’ll steal. I do, every day. But at least steal like an artist. Consider for a moment that some of the best writers learned to write by writing, word for word, the works of the authors they revered. Stealing is a part of the process, not the end of it.&lt;/p&gt;
+
+&lt;p&gt;Remix. It won’t be long before you understand that to come up with a good solution means failing and failing often. Beware emotional attachment. Ideas are not your children, nor your pets. More importantly, they are not you. You should be able to toss them out without hesitation, start from scratch as often as necessary. For you are makers and for people like you it’s the journey that counts, not the destination.&lt;/p&gt;
+
+&lt;p&gt;Fortunately for me, for you, most of what you’ll hear today, you’ll forget. I can give you the best advice in the world, you’re not going to stick to it. Which is the whole point, paradoxically. The great thing about events like this one is not that you get to meet other people like you and pat yourself on the back for being so awesome, but that you can’t wait to get back home and fire up Photoshop and start doing this thing that’s been itching you ever since you heard this speaker talk about that and this other one mention another thing and you suddenly had this epiphany about reconciling the two and now it’s been growing inside of you it’s unbearable you must get it out but you don’t want to talk about it because it’s beyond words &lt;em&gt;you have to do it&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;That&lt;/em&gt; is what I’m talking about.&lt;/p&gt;
+
+&lt;h2&gt;You have everything to prove&lt;/h2&gt;
+
+&lt;p&gt;So you just graduated from college and now you’re entering the job market, ready to prove the world how awesome you are. Only you’re probably not equipped to do so. Let’s put aside the fact that there is virtually no school that prepares you for what it is to get up every day and work for a living; that you’ll have to deal with a shit list of things that are not strictly related to what you’re paid to do; that sometimes personal issues will impede your ability to work but you’ll have to do it anyway; or that you don’t have any real world experience of what work is in the first place.&lt;/p&gt;
+
+&lt;p&gt;As far as work is concerned, you’re a clean slate, a blank sheet of paper. This is day zero for you. Now I don’t mean no disrespect, so please don’t take offence when I say that &lt;em&gt;you are nobody&lt;/em&gt;. You’re not special, not smarter, not the one everyone was expecting.&lt;/p&gt;
+
+&lt;p&gt;Abandon any such feelings right now, for your own sake and for other’s.&lt;/p&gt;
+
+&lt;p&gt;Because if you don’t whatever you’ll ultimately turn into is so disconnected from what others are seeing (i.e. the reality) you won’t have any idea how blind you are. Now if this looks diminishing to you, hold on because it gets better. The grapes of greatness are inside of you; they’re inside of anybody. All it takes for them to grow is for you to realise that your ego is the only roadblock to becoming someone. Written like that makes it sound simple, it’s actually one of the hardest thing you’ll ever have to do, because said ego will relentlessly come back in various forms to haunt you and expelling it is going to be a constant struggle. One that will require your whole attention. There are times where you’ll succeed, others you won’t.&lt;/p&gt;
+
+&lt;p&gt;The moment I realised this was that kind of moment where you have the impression something was buried deep inside of you, something you knew all along but you didn’t know you knew. That feeling is very difficult to express, but you know it’s the Truth. A truth so overwhelming, so transcending, that you wouldn’t even dare to question it.&lt;/p&gt;
+
+&lt;p&gt;And this truth is that it’s not a lack of money, or resources, or your boss, or you client, that prevents you from being great: it’s yourself. So yes, perhaps right now, you are no one, but the good news is you aspire to be. There is another you, waiting to be discovered. When you see it like that, you embark on a lifelong journey that, for all the efforts it will require, is paved with exceptionally rewarding treasures. That I can promise you. And it doesn’t matter if you don’t know how to do it—or even who you want to be. It’s not like you even have to think about it. Because of the others. People will expect from you nothing less than you’re very best, and that is the trigger you need to pull. It doesn’t matter either that you don’t know what “your very best” actually is. You’ll figure it out on the way.&lt;/p&gt;
+
+&lt;h2&gt;The entropy of life&lt;/h2&gt;
+
+&lt;p&gt;As a corollary, there are chances you’ll end up doing something that is at odds with what you studied at school. And by that I really mean you’ll have the feeling you lost your time all those years.&lt;/p&gt;
+
+&lt;p&gt;That used to be different. In the past, when you made a choice, you were pretty much stuck with it and had to endure all the consequences of a potentially bad choice (perhaps imposed on you). But now, things are different, the rules have shifted gears. We have the choice to change our mind, and to do it often.&lt;/p&gt;
+
+&lt;p&gt;Choice might not be the best word here, because it implies conscious, deliberate action on your behalf, which I think is not exactly what is going to happen. Something that you can find beautiful or sad depending on how you choose to see it, is that you have little actual control over who you’ll become. That person, that other you, mainly depends on external factors you can’t predict at all will happen.&lt;/p&gt;
+
+&lt;figure class=&quot;aside aside--small&quot;&gt;
+    &lt;div class=&quot;media&quot;&gt;
+        &lt;a href=&quot;http://www.ted.com/talks/ken_robinson_says_schools_kill_creativity?language=en&quot;&gt;&lt;img src=&quot;/assets/robinson.jpg&quot;
+            srcset=&quot;/assets/robinson.jpg 1x, /assets/robinson-@2x.jpg 2x, /assets/robinson-@3x.jpg 3x&quot;
+            width=&quot;320&quot; height=&quot;240&quot;
+            alt&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;figcaption&gt;
+        &lt;p&gt;Do yourself a favor, watch or read everything Sir Robinson has done.&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Talking about this reminds me of this great story related by Sir Ken Robinson, about that little girl who was completely hopeless at school, who today would have been diagnosed with ADHD or some other bullshit condition, but who eventually became a billionaire choreographer. And it wouldn’t probably have ended up like that, hadn’t the school written to her parents, hadn’t her parents brought her to a doctor—that doctor among dozens of other doctors—hadn’t that doctor had the idea to observe her and who understood and who showed her parents that this little girl couldn’t stop dancing when she was hearing music and whose only prescription was: bring her to a dance school. What an unlikely series of events, isn’t it? It’s not hard to imagine that she wouldn’t be where she is today had one small detail been different.&lt;/p&gt;
+
+&lt;p&gt;Now this is an extreme example. I’m not saying that all children with problems at school are would-be billionaires, otherwise we would all be pretending, right? Let’s get back to us. What is our turn of events? The most likely answer to that question is: we don’t know, or at least we won’t until we get there. I like to see my path in life as a series of ricochets, each one being correlated with the previous one but under a number of conditions so unbelievably high that’s it’s humanly impossible to predict where the next one will lead me. And yes to some degree this is frightening, but it’s also wonderful. Even if we all dress the same, publish the same stupid things on Facebook, watch the same movies, reproduce exactly the same patterns, each one of us is truly unique by virtue of all these ricochets. So at this point if you’re afraid you won’t become who you want to be, let me spare you the wait: you won’t. You’ll be much more interesting than that, much more complex and nuanced than this little reductive insignificant picture you have in mind. And if you are worried, my advice is that you stop right now, because the time you spend thinking about it is the time you don’t spend living it.&lt;/p&gt;
+
+&lt;p&gt;And &lt;strong&gt;living is where all the opportunities come from&lt;/strong&gt;, I guess we can all agree on that.&lt;/p&gt;
+
+&lt;h2&gt;You know nothing&lt;/h2&gt;
+
+&lt;aside class=&quot;aside&quot;&gt;
+    &lt;p&gt;I have a thing for dramatic titles.&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;There is something that nobody tells you at school, it is that all the studying you did to pass these exams, all these nights awake trying to figure out what the hell this is all about, and that now you’re looking at with a bit of nostalgia or perhaps some bitterness; all this learning is in fact &lt;em&gt;nothing&lt;/em&gt; compared to what you’ll have to learn if you want to succeed.&lt;/p&gt;
+
+&lt;p&gt;I’m speaking strictly about the web here, which is the industry I have been in for a decade and the only one I can speak of with some kind of authority, but I’m sure this is true for all the other industries. You must evolve your knowledge at the same pace as the Web does, i.e. very fast. Follow this rule to the letter for as long as you can. That is the only way I found out that works—if you want to thrive. Always be on the lookout for the things you don’t know yet. And don’t worry, the web is an unquenchable source. Just look at the browser release cycles alone: there’s a new version coming out every 6 weeks or so, each one giving developers and designers access to more APIs, more CSS modules, more HTML elements and attributes, introducing new file formats, new protocols, new diagnostic and testing tools. Even the standardisation process is happening faster than it used to now that all browser makers have rallied under the web standards banner. The web has finally gained momentum, and it’s going to keep accelerating. Every day, there is a new technique to learn, a new language to master, a tool to pre-process, another tool to post-process. Plus there are all the other areas that, because the web is a communication platform, you may need to know depending on what you aspire to do: social psychology, motion design, typography, cognitive psychology, ergonomics, information architecture, animation, information theory, semiotics, writing, colour theory, rhetoric, anthropology, … the list goes on and on. And don’t get me started on hardware. Screens of all sizes, wearables, sensors, seams, CPUs, GPUs, beacons. Even the humble hand. Factor in Moore’s law and it becomes nightmarish.&lt;/p&gt;
+
+&lt;p&gt;If you’re like me you’ll want to know everything, and eventually be disillusioned with your capacity to learn. For many years I have been haunted by a vision. I’m right in the middle of an ocean, swimming; no matter where I look, there’s no sign of land anywhere; it’s impossible for me to know in which direction to go. Talk about anxiety. I’ve come to grips with it eventually, as I’m sure you will too. Nevertheless, the lesson remains: it will probably be a long time before you know more than enough, either by the industry’s standards or by the ones you set yourself.&lt;/p&gt;
+
+&lt;p&gt;This is what you shouldn’t forget: &lt;strong&gt;The web is the fucking Renaissance, man&lt;/strong&gt;!&lt;/p&gt;
+
+&lt;h2&gt;Fear the exhaustion&lt;/h2&gt;
+
+&lt;aside class=&quot;aside&quot;&gt;
+    &lt;p&gt;I wrote this because I was a bit disappointed that close to nothing was written on a subject as real and urgent as burnout. Aside from &lt;a href=&quot;http://alistapart.com/article/burnout&quot;&gt;this great article by Scott Boms&lt;/a&gt; (five years ago!), the subject is glaringly missing coverage.&lt;/p&gt;
+    &lt;p&gt;Somewhat unexpectedly, the last few weeks have seen many people being pretty vocal on mental health issues and how to cope with them. Hell, it’s even been given a name and a proper home: &lt;a href=&quot;http://geekmentalhelp.com/&quot;&gt;Mental Help Week&lt;/a&gt;.&lt;/p&gt;
+    &lt;p&gt;It must be said that nothing I wrote here comes even close to what these people shared; I cannot state more that that thing inside of you that makes you a great human being/professional is fragile and delicate and &lt;em&gt;must be taken care of&lt;/em&gt;. I urge you to go and have a look at this website.&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;Everything’s not all peaches and cream. If you don’t pay attention, that thirst for knowledge, a job that is always on by nature and therefore breaks the barriers you try to create between your professional and personal lives, … well, I’m sorry to say it won’t last if you don’t have a minimum of hygiene. When you’re keeping your nose to the grindstone, it’s easy to get lost and not notice that little monster, lurking in the dark. The first signs are barely noticeable, so inconspicuous you won’t be able to make the connection. A bad night’s sleep, your neck stiff, fidgeting, being withdrawn. The kind of thing you can manage. I mean it’s nothing, you’re part of something much bigger, it’s the web after all! You just need a coffee.&lt;/p&gt;
+
+&lt;p&gt;Soon enough, the signs will occur more and more, getting stronger, day after day after day, eating up your motivation bit by bit. Suddenly you’ll start to wonder what you’ve done all this time and you won’t find any answer you can be proud of. You’ll feel wasted, useless, exhausted. Unable to focus on anything. Once you’re on the web, totally committed, it’s very easy to get lost, forget where you came from and, more importantly, where you’re heading.&lt;/p&gt;
+
+&lt;p&gt;It’s a proven fact that even a very small exposure to the web, as in just a few hours, is enough to rewire your internal circuitry. A number of studies have shown that our online activity turns us into superficial, shallow thinkers who are very easily distracted. It turns out that the mere act of seeing a hyperlink disrupts our concentration and therefore weakens our ability to learn.&lt;/p&gt;
+
+&lt;figure class=&quot;aside aside--small&quot;&gt;
+    &lt;div class=&quot;media&quot;&gt;
+        &lt;a href=&quot;http://creativemornings.com/talks/simon-collison/1&quot;&gt;&lt;img src=&quot;/assets/colly.jpg&quot;
+            srcset=&quot;/assets/colly.jpg 1x, /assets/colly-@2x.jpg 2x, /assets/colly-@3x.jpg 3x&quot;
+            width=&quot;320&quot; height=&quot;180&quot;
+            alt&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;figcaption&gt;
+        &lt;p&gt;This talk gave me the idea for this chapter. It was the first time I saw a web guy opening up in front of his peers with so much candour and sincerity. Worth every word.&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;If you’re not freaking out right now, I don’t know what will. For all the good things the Web brought to us, there’s an equal amount of signs it can actually be bad for our health. In 2012, Simon Collison gave a talk at CreativeMornings in New York where he laments about the increasing amount of knowledge that today’s web designers must accumulate if they want to be called web designers in the first place, and beautifully addresses the paradox of exposing to a community who, let’s be honest, thinks of itself as a bunch of superheroes, just how human and limited we all are. He says:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Whether you’ll agree with everything I’ll say, whether you’ll like what I&amp;rsquo;ll say, I’m not sure. But at the very least I thought I could come here and kind of bear something off myself and just let you know how I feel. I think sometimes there’s a perception that some designers are on top of everything. I’m not.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There’s not much to add to it, is there? It seems like a plague of our western culture that we tend to mistake quantity for quality. Somewhere deep inside us, &lt;em&gt;a notion reinforced by generations of post-industrial revolution education makes us think that more is always better&lt;/em&gt;. It’s visceral and horrifyingly pervasive: our quality of life, our success, is measured in numbers. We just can’t resist it. And of course it’s completely wrong. The proofs are there by the thousands, and they’re all backed by science and spirituality.&lt;/p&gt;
+
+&lt;p&gt;Here is a plea from me to you: take as much care about your mental and physical health as you take care of your knowledge. Get away from the constant noise of the web. There are many activities out there to cover for what the web does to your brain. Your life and ultimately the life of the people around you depend on it.&lt;/p&gt;
+
+&lt;aside class=&quot;aside&quot;&gt;
+    &lt;p&gt;I was holding my copy of &lt;a href=&quot;http://www.amazon.com/Consider-Lobster-Essays-Foster-Wallace/dp/0316013323&quot;&gt;&lt;b&gt;Consider the Lobster&lt;/b&gt;&lt;/a&gt;, of all the books I have this one in particular was perhaps the best I could’ve chosen.&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;This is a book, a door to the most dazzling journeys you’ll ever make. You like drawing? Painting? Street art? Photography? Pottery? Mechanics? DJ-ing? Playing an instrument? Woodworking? Letterpress? Leather craft? T-shirt printing? 3D printing? Get your hands dirty. You like sports? Get out and sweat your heart out. You like cooking? Fishing? Hunting? Wine tasting? Cigar smoking? Whatever your thing is, do it and do it thoroughly. Understand the underlying principles, learn to see the components and how they play together. Learn the fucking history of it.&lt;/p&gt;
+
+&lt;p&gt;Because you see, there is another nasty side effect to insulating yourself from the outside. You become boring, obsolete, washed-out. A facsimile. Unable to come up with anything that hasn’t already been done and redone. A slave to your limited, recycled spirit. I’ve seen it happen and chances are you will too. It’s not funny.&lt;/p&gt;
+
+&lt;p&gt;However, if you “choose the red pill,” very good things will happen. Because the mind is a phenomenal device, you’ll start to make connections between things that were completely distant from one another, these connections will lead to yet other connections, you’ll have thoughts and ideas you would never have had on your own, these ideas will nurture everything you do and yes, in case you were wondering, your work too.&lt;/p&gt;
+
+&lt;p&gt;And this is what will make you truly unique, these connections.&lt;/p&gt;
+
+&lt;h2&gt;Don’t work with idiots&lt;/h2&gt;
+
+&lt;p&gt;Right now I’m in a comfortable position, I have been doing this for more than 10 years so it’s kind of hard for me to imagine your situation. But I interviewed people on several occasions, and from this vantage point it’s always baffling to see how unprepared they all are.&lt;/p&gt;
+
+&lt;p&gt;If you look at it from a distance, it’s easy to see the interview as a kind of natural selection process, where only the fittest survives. Of course the interviewer loves this because it puts her in the comfortable position of being the one who gets to decide, who “makes you an offer.” But it turns out, this vision is not only inadequate, it’s outright dangerous. Nobody said the roles were fixed, and it’s easy to understand why. After all, it’s called “finding a job” for a reason. At some point it’s on you to take turn and ask for the part where you get to know whether you’ll be happy there or not, where you get to choose if you want to spend the majority of your time over there. Because if you sign that piece of paper, this is what’s going to happen. And believe me, any financial incentive will be worth nothing if you feel like shit having to get up everyday to join a bunch of assholes for at least 8 hours a day.&lt;/p&gt;
+
+&lt;p&gt;So, while the temptation to accept anything that comes your way is huge, I urge you to resist and think. I mean sure, there will probably be a trial period and you can leave whenever you want, but signing a contract is a commitment nonetheless, and you must take it seriously.&lt;/p&gt;
+
+&lt;p&gt;What kind of impression do you think you’ll make if you go from trial period to trial period, little grasshopper?&lt;/p&gt;
+
+&lt;p&gt;Now is your chance, seize it. Be curious about the company’s culture. Grab any information that comes your way, either by asking questions, meeting the people who work there. Look at the kind of clients they have, the kind of work they do: this is in direct correlation with who they are. In today’s world where everything has a social network, it would be surprising the company has no social activity. So go have a look. Perhaps if they don’t, it should be a red light for you.&lt;/p&gt;
+
+&lt;p&gt;And yes, it’s more important to get to know the employees of a company rather than the head of HR, the director, or even your boss. It is them who shape the company’s culture, them who will have to welcome you inside a probably already functioning microcosm, them who you’ll have to turn to because you don’t know what is what, them with whom you’ll spend most of your time. After all, places where you go to work are often called “company,” which I suggest to you is not an accidental term.&lt;/p&gt;
+
+&lt;h2&gt;Don’t work for idiots&lt;/h2&gt;
+
+&lt;p&gt;Of course you get to choose who you work for too. When you’re in the middle of an interview, you tend to forget that aspect and get lost in the conversation. Which is bad of course, because what you’re talking about is a potential future relationship. And to some degree, this is no different from the relationship you have, with your friends, your boy- or girlfriend: if you want it to work, both of you must agree on a set of rules by which your relationship abides. That means you also get to decide what those rules are, and what you’ll both trade off in this mutual agreement.&lt;/p&gt;
+
+&lt;p&gt;If it helps, I’d ask think of it this way: just like any story, your job will have a beginning, a middle and an end.&lt;/p&gt;
+
+&lt;p&gt;At the beginning, the responsibilities lie more on the side of the company you work for. You have a lot to get accustomed to: the company’s culture, the workflows, the hardware, the software, how you’ll fit in. What do they plan to do to put you on good grounds?&lt;/p&gt;
+
+&lt;p&gt;Then think about your life in the company. It won’t be linear, monotonic, and certainly not smooth. Just like in any relationship, there will be highs and lows. But you both have high expectations, they hope you’ll fuel the company with your creativity and you should also have the ambition to grow a better whatever-your-title-is and excel at what you do.&lt;/p&gt;
+
+&lt;p&gt;And eventually yes, you will have to put an end to that relationship. It may be because you retire, or because you want to take another challenge, or because your relationship turned out to be unsustainable. But it will happen.&lt;/p&gt;
+
+&lt;p&gt;I know it’s a lot, but it’s basically what the content of that contract represents. The company is an environment where you will grow, learn new things, let your personality evolve, increase your experience, create. This is the real value you get out of that contract: it’s the whole journey. So when you sign that piece of paper, what you really are giving in exchange of money is your future self, who you become at the end.&lt;/p&gt;
+
+&lt;p&gt;So my advice is you’d better make sure you can trust them to provide a challenging and rewarding environment for the life you’re going to live inside of their walls.&lt;/p&gt;
+
+&lt;h2&gt;Learn to say fuck off&lt;/h2&gt;
+
+&lt;p&gt;When you sign that contract, you’re in for the long haul. And by that, I mean that you promised you will do your best to make that relationship work for a very long time. I say that because I find certain people have it too easy and when the first real problems arise, they just quit. “Goodbye and go fuck yourself.” Or, they just follow the money and quit when an juicier offer comes up, with no hesitation.&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s a company I know very well that refuses to put names and photos on its website because they fear other companies will then try to steal employees from them. This is beyond ridiculous, right? Because in the end, a company’s worth is nothing more than what its human collective is able to deliver, so why the hell aren’t its leaders doing everything they can to show the world how much they care about their employees and acknowledge their contribution to the company? I mean if you expect loyalty from your crew, you should at least give them a reason to be loyal in the first place. Because obviously money does not buy loyalty, it never did. Of course that’s some vicious circle, as it does not encourage people to come for anything else than cash. The kind of people who will succumb to that way of dealing with their career, jumping from one host to another, feeding on them and then leaving, I think there’s a name for that: parasites. And to think that there are companies willing to employ those parasites, this says a lot about their definition of professionalism and probably also the way they treat clients. I still can’t wrap my head around that, even after seeing it happen for real.&lt;/p&gt;
+
+&lt;p&gt;I’ve been working for 10 years for the same company, and I can tell you it’s not been easy. I’ve been disappointed many times, they have too. It took a lot of time and effort before we finally figured it out, before we found the best way for us to get the most out of our relationship. And I had many opportunities to quit, either by starting my own thing or leaving for another company. It’s not that I blatantly refuse these potential outcomes, I still think about them regularly. But there’s a right way and a right time to do that, i.e. if you aspire to becoming a professional and a respected human being, well then you must show some respect.&lt;/p&gt;
+
+&lt;p&gt;Besides, the guy who’s trying to win you using unethical tactics, well he &lt;em&gt;is&lt;/em&gt; an idiot, so why work for him?&lt;/p&gt;
+
+&lt;p&gt;So when I say “learn to say fuck off,” it means that you really have to get your acts together before making a decision. It also means that you know the kind of impression you’ll make and the kind of work you’ll get when you do it.&lt;/p&gt;
+
+&lt;h2&gt;The Spoils of Creativity&lt;/h2&gt;
+
+&lt;p&gt;A thing or two you need to know about creativity. Now at this point if you’re expecting I&amp;rsquo;m going to tell you that you’re not creative, I’m sorry. I really have to work on my titles. Of course I won’t say that.&lt;/p&gt;
+
+&lt;aside class=&quot;aside&quot;&gt;
+    &lt;p&gt;If you want to go down the rabbit hole, I heartily recommend a daily dose of &lt;a href=&quot;http://brainpickings.org/&quot;&gt;Brain Pickings&lt;/a&gt;, it cannot hurt.&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;Creativity. Oh I hate that word. Not because of the what or the why. Defining creativity? A concept so elusive and ethereal that it occupied generations of philosophers, scientists and artists. This is way beyond my abilities. But I know enough to be able to separate the wheat from the chaff. And so what I want to talk about is all the bullshit creativity carries with it, the kind of thing you will probably be confronted with if you end up working in the so-called creative industry. Which I assume you will, as that was the whole point of your college education.&lt;/p&gt;
+
+&lt;p&gt;I’m about to open a can of worms which, once again, lies in our myopic, short-sighted view of the world. In particular, I’m referring to our compulsive need to put people inside boxes, and the dangers that come with it. No matter what your area of expertise is, it’s quite common to differentiate people based on their role. For instance, on the web we usually have developers, designers, copywriters, community managers, … Of course that kind of discrimination can make you smile, when you know how even areas of expertise so dissimilar can share many aspects when looked at from a certain distance. But let’s assume for a while that it is a valid and reasonable way of seeing things. Trouble starts when people mistake these boxes with quality values, like “these ones are great for blablabla while these ones not so much,” because sooner or later the label “creative” will be thrown into the mix, and some will be called “the creatives” while the others will be called … well, they won’t be called anything because you know, the point is not to diminish them, because quote, “it’s just that they’re not that type of person.”&lt;/p&gt;
+
+&lt;aside class=&quot;aside&quot;&gt;
+    &lt;p&gt;I’m not the first one to &lt;a href=&quot;http://bradfrost.com/blog/web/creatives/&quot;&gt;call bullshit on the word “creative”&lt;/a&gt;.&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;p&gt;Now if you’re like me, you’ve never liked being called something. Most of the times it’s because of the corresponding stereotypes, other times it’s because of what implicitly you are not. I mean we are complex human beings, nuanced in many subtle ways, it’s impossible to abstract us to a single word, is it? And my experience is that, when it comes to this label, creative, it means things have reached a tipping point and what’s coming up is bound to be bad for everyone, no matter on which side of the creative/non-creative dichotomy you reside.&lt;/p&gt;
+
+&lt;p&gt;Let’s first get rid of that ludicrous idea that some people are creative while others are not. Not only is the thing insulting, it also does not resist the most basic examination. Take a look at your school’s program: where are the classes that “teach” you creativity? Lateral thinking perhaps? Transformative learning? Synectics? Improvisation? The last time I remember having a teacher trying to stimulate my creativity, I was in elementary school. Take a look at the literature of any creative field: advertising, architecture, design, music, games, … I still have to find a book where creativity is singled out as something you were born with.&lt;/p&gt;
+
+&lt;p&gt;No, the label “creative” was invented by people who try to impose their shallow, limited view of the world on others. They may have no bad motive at all, but their social status or apparent self-confidence makes them think they know what they’re talking about. Meaning, they know better than you. Oh really, that’s cute. If you want to know how dangerous this idea is and what kind of damaging consequences it can have, I’ll ask you to remember this video that made the rounds of the Internet a few months ago, of a bunch of African soldiers who make fun of a small chimp and give him a rifle, which eventually the chimp fires against the soldiers and perhaps hurt or kill someone in the process. Yes, I know it was a fake, but you get the idea.&lt;/p&gt;
+
+&lt;p&gt;Be tagged a creative person, you will end up being a fraud, unable to question your own judgment. Be tagged a non-creative person, you will end up doing nothing but procedural, automatic, information processing. Let this idea sink in, and watch a group of people who could have created wonderful things become divisive, doing everything to please their peers and put the blame on the others. That’s right, at this point it’s probably too late, the company’s culture is rotten and will eventually kill every newcomer’s good intentions.&lt;/p&gt;
+
+&lt;p&gt;So if it’s not clear right now, this is an example where you can say fuck off.&lt;/p&gt;
+
+&lt;h2&gt;The pale blue dot&lt;/h2&gt;
+
+&lt;figure class=&quot;aside&quot;&gt;
+    &lt;div class=&quot;media&quot;&gt;
+        &lt;img src=&quot;/assets/palebluedot.jpg&quot;
+            srcset=&quot;/assets/palebluedot.jpg 1x, /assets/palebluedot-@2x.jpg 2x, /assets/palebluedot-@3x.jpg 3x&quot;
+            width=&quot;320&quot; height=&quot;200&quot;
+            alt&gt;
+    &lt;/div&gt;
+    &lt;figcaption&gt;
+        &lt;p&gt;Earth seen from 6,000,000,000 kilometers. Now &lt;em&gt;that&lt;/em&gt; is a panoramic shot. &lt;a href=&quot;http://en.wikipedia.org/wiki/Pale_Blue_Dot&quot;&gt;Learn more about the Pale Blue Dot&lt;/a&gt;.&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Every now and then I tend to lose track of what really matters. That’s a very bad habit which I try to get rid of with all sorts of tricks, but it keeps coming back since I started my professional life. It’s not always easy to accept the truth, but the fact is that being too much involved into something can cost you a lot.&lt;/p&gt;
+
+&lt;p&gt;What does really matter? I mean eventually everyone has to come up with an answer to that question, right? For a second, I want you to think about your life; think about the things you did, the bad stuff and the good stuff; think about your loved ones, family and friends, the people you hate too; think about the places you went, the food you tasted; think about that book that changed your life altogether because you bonded with the author who had the very same ideas as yours only much earlier and with much much more insight; or that concert where you were shirtless because it was so hot and then suddenly it started raining but there were so many people around you it was not possible for you to put that t-shirt on but you didn’t care ’cause it was one of those magical moments where you feel like everything is coming together nicely, the music, the weather, and you feel like you’re part of something bigger and it’s great; think about that night you were sitting next to your girlfriend and then suddenly she put her hand on yours, and it was nothing special just an automatic everyday gesture, but you stared at her hand and in an instant you could see the thousand times your hands touched, all of them, and you longed to see the thousands, millions of times your hands will touch again in the future, and you feel so lucky; think about all the things still waiting to be done, waiting to be learned, all the experiences waiting to be lived, and how just the thought of it gives you the energy of a tiger and you cannot wait for tomorrow to come. All these things, these millions and then more of little, huge, things that add up to make what you are now. I don’t know you, but knowing that I am so many of these things, all with their own wonderful, infinite complexity, makes me able to see life with a bit of perspective.&lt;/p&gt;
+
+&lt;p&gt;I want to leave you on this final note: no matter how much you’ve invested of yourself into it, no matter how much you identify with it, this is just a job, a tiny piece of the puzzle.&lt;/p&gt;
+
+&lt;p&gt;Thank you&lt;/p&gt;
+</description>
+        <pubDate>Sat, 08 Nov 2014 16:02:00 +0000</pubDate>
+        <link>/thoughts/hot-tub-time-machine/index.html</link>
+        <guid isPermaLink="true">/thoughts/hot-tub-time-machine/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Writing is f#$%@ing hard</title>
+        <description>&lt;p&gt;When I launched the Black Swan, I set myself a goal: I would write an article every month and progressively build up to a weekly publishing schedule. Then, using shorter, less narrative publishing formats, I’d reach the mythical output of &lt;em&gt;many times a day&lt;/em&gt;. “That’s a hell of a plan,” I thought, and not particularly inconceivable. I mean look, they’re all doing it, right?&lt;/p&gt;
+
+&lt;p&gt;Needless to say, I’ve not succeeded. Little did I know about the efforts writing a journal requires. For the past several months,   I’ve been avoiding to look at my website, reluctantly using my computer for little administrative tasks, feigning to overlook the opened iA Writer window. The blinking blue cursor never stopped, I could’ve hit Command-Q and be done with it but a little voice in my head urged me to keep it open. I’m not giving up, quite the contrary in fact. This is a very good opportunity for me to sit and reflect on what happened, why it happened and make some changes to get back on rails.&lt;/p&gt;
+
+&lt;h2&gt;On the shoulders of giants&lt;/h2&gt;
+
+&lt;p&gt;I read. Not a lot, I’m not a voracious book reader like my friend Cathy—who by the way &lt;a href=&quot;http://www.tulisquoi.net/&quot;&gt;you should know&lt;/a&gt;—but enough to keep me busy for several straight weeks, should I not leave the couch before finishing them all. Approximately half of my reading is on the Web about the Web—a daily task—the other half is a mixture of fiction, math and language. I read because I love the experience, the walls erected almost instantly all around myself when my whole world becomes a tiny piece of paper. Echoing what legions of readers have experienced for times immemorial, &lt;a href=&quot;http://alistapart.com/article/INDEFENSEOFREADERS&quot;&gt;Mandy Brown writes&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;What each of these readers has in common is an ability to create solitude under circumstances that would seem to prohibit it. Reading is a necessarily solitary experience, like dying, everyone reads alone, but over the centuries readers have learned how to cultivate that solitude, how to grow it in the least hospitable environments. An experienced reader can lose herself in a good text with anything short of a war going on […], the horticultural equivalent of growing orchids in a desert.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It’s not hard to imagine myself consumed by a book, oblivious to my immediate surroundings, having lost the sense of time passing by—happens all the time. But reading is also a vehicle for learning how to write. That is &lt;a href=&quot;http://en.wikipedia.org/wiki/Mere-exposure_effect&quot;&gt;social psychology 101&lt;/a&gt;, which David P. Gardner paraphrases well:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;We learn simply by the exposure of living. Much that passes for education is not education at all but ritual. The fact is that we are being educated when we know it least.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And I’m gonna posit that the same can be said about writing. I acknowledge that writing in english may look presumptuous from a french-speaking guy, but it wouldn’t even happen weren’t my readings almost exclusively in english. I regularly recognise after the fact that many sentences unconsciously reproduce something I previously registered. I guess not many authors would use the word ‘priming’ to describe their intended effect, but that’s what I feel is happening. Unfortunately, the gratifying discovery of the occasional well-written sentence comes at a price: I’m becoming extremely judgmental of my own writing. Let me summarise this: I read to teach me how to write, but the more I read the more I realise I can’t write. That’s a vicious form of procrastination, isn’t it?&lt;/p&gt;
+
+&lt;p&gt;I just need to get out of that circle, follow the words and see where they lead me. That’s what I realised recently, that this self-consciousness was but a self-inflicted pain, an unnecessary burden. Alas, the next hurdle came right off the bat.&lt;/p&gt;
+
+&lt;h2&gt;The commitment&lt;/h2&gt;
+
+&lt;p&gt;Many renowned authors and artists have been pretty vocal about &lt;a href=&quot;http://www.brainpickings.org/index.php/2014/08/25/the-psychology-of-writing-daily-routine/&quot;&gt;the rituals they religiously followed&lt;/a&gt; in order to put themselves in a state of creative flow: from standing position to surrounding objects, from alimentary regimens to strict social agendas, from sleeping patterns to daily schedules. No matter their particular preference, they all display the same kind of commitment. This may sound obvious, but writing does not happen between two episodes of Game of Thrones. In essence, any kind of creative activity requires a complete absence of distraction for a long-enough period of time. It’s not like I expected words to come out of the blue, but after a long day of work it’s hard to resist the temptation to switch into relaxation mode.&lt;/p&gt;
+
+&lt;p&gt;I need to make space for writing. Logistically speaking, perhaps I can think about ways to optimise my time; the sooner I get it done the sooner it’s out of the way, so to speak. Fortunately, this problem is far from new. I could use the wisdom of people who were there before me, couldn’t I?&lt;/p&gt;
+
+&lt;figure class=&quot;aside&quot;&gt;
+    &lt;div class=&quot;media&quot;&gt;
+        &lt;img src=/assets/habitfields.jpg alt&gt;
+    &lt;/div&gt;
+    &lt;figcaption&gt;
+        &lt;p&gt;I want the same armchair.&lt;/p&gt;
+        &lt;p class=credit&gt;Illustration by Kevin Cornell for &lt;a href=http://alistapart.com/article/habit-fields&gt;A List Apart&lt;/a&gt;.&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Reflecting on the notion that we use objects to remind us of particular events of our past, Jack Cheng &lt;a href=&quot;http://alistapart.com/article/habit-fields&quot;&gt;wonders&lt;/a&gt; if we can’t train our mind to do the same for behaviours too:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Here’s how I like to think about it: Every object emits a &lt;em&gt;habit field&lt;/em&gt;. When we sit down at the desk in our office to work, we shape its habit field into a productive one. When we sit down in a lounge chair to watch our favorite TV program, we nudge the chair’s habit field toward relaxation and consumption. The more we repeat the same activity around an object, the stronger its habit field gets. And the stronger its habit field gets, the easier it is for us to effortlessly fall into that mode of behavior the next time we’re around the object.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There’s a chair in our apartment on which we rarely sit; it’s a bit off compared to the other pieces of furniture, I assume is why. I would never sit there normally, so perhaps I can use it to write, and write only; the more I use it, the more I shape its habit field and the easier it gets for me to write what I have in mind.&lt;/p&gt;
+
+&lt;p&gt;OK, so that’s basically the plan for now. There’s just one little detail…&lt;/p&gt;
+
+&lt;h2&gt;It’s the thinking, you stupid!&lt;/h2&gt;
+
+&lt;p&gt;To whoever approached the idea of writing, sharing personal or fictional or work-related things, arrogance and narcissism—or perhaps self-consciousness—start to become a little more tangible. And yet, so many people are encouraging me to write—not me in particular, but me as a keyboard owner. &lt;a href=&quot;http://www.kungfugrippe.com/post/169873399/clackity-noise&quot;&gt;Merlin Mann&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Please use that keyboard to talk about your life sometimes.&lt;/p&gt;
+
+&lt;p&gt;Your real life. Not just the canned version of life on which we slap adhesive labels like happy or sad, poor or rich, employed or unemployed, “eating lunch” or “hatin’ life”, “it’s complicated” or “serial entrepreneur,” “meh” or “whatever.”&lt;/p&gt;
+
+&lt;p&gt;Tear off your fucking labels.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’m 1200 words into it and yes, I can tell, it all happened &lt;em&gt;on the run.&lt;/em&gt; I just don’t want to fill the Web with 2000 words of boredom. I cannot help but see the writer/reader relationship as a kind of pact. Even more so in today’s oversaturated world; attention is a luxury that you must earn and pay the high price for. For the writer, it means sweating the details in every sentence, pouring oneself into the words so much that, when the writing’s done, he’s another person. Otherwise it’s stealing. And stealing people’s time makes me extremely uncomfortable. It’s not that I don’t have ideas or that I don’t know what to say. There are many drafts on my computer, sitting there silently until one day I eventually commit to work on them. In essence, &lt;em&gt;writing is easy, but being worth reading is a totally different beast.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Online, there’s only a handful of authors that I revere. Oliver Reichenstein is one of them. This man knows how to give a reader his time’s worth, so when there’s a new piece on his site, I wait until I have enough time and space to process what he wrote, because I sure am in for a treat. This is part of the pact too. In this enthralling piece on the notion that quality needs deep, self-obliterating thinking, he &lt;a href=&quot;http://ia.net/blog/putting-thought-into-things/&quot;&gt;writes&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;[…] writing seems, romantically, a great occupation, until you sit down and ask yourself: what do I have to say? Once you start seriously listening, reflecting, and trying to use your imagination, you are willingly sitting down for slow, repetitive self-torture.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This sums it up well, as far as I’m concerned. Thinking is at the heart of every creative, artistic endeavour. And it’s fucking hard. This is almost revolting, but most of what happens to create something ends up being completely ignored or absent from the end product. And the opportunities to lose oneself are plenty, hence the need for constraints. I do think creativity and constraints are two sides of the same coin. For instance, take a newspaper, any newspaper. Look at it from a distance: see how there’s no gap, how the content and the paper match perfectly? This is something that you usually don’t notice while reading, precisely because it’s made so that everything looks like it’s falling naturally into place. Well, the truth is, it is not. Journalists are given very detailed rules on the length, the grammar, the punctuation and the style of a particular article. The by-product is that over time, they’ve developed creative ways to use language within these constraints, have become masters at saying things with as few words as necessary but not less.&lt;/p&gt;
+
+&lt;figure class=&quot;aside&quot;&gt;
+    &lt;div class=&quot;media&quot;&gt;
+        &lt;img src=/assets/layer-tennis.jpg alt&gt;
+    &lt;/div&gt;
+    &lt;figcaption&gt;
+        &lt;p&gt;&lt;a href=http://www.layertennis.com/match/contino-vs-cassaro/#1&gt;Volley 1&lt;/a&gt; by &lt;a href=http://joncontino.com/&gt;Jon Contino&lt;/a&gt; in this season’s latest match of Layer Tennis. It can only get as good as the time and space constraints permit.&lt;/p&gt;
+        &lt;p class=credit&gt;© Coudal Partners.&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;You can see the vital role of constraints in just about every creative field. Some of them are obvious, tangible, like the size of the canvas for a painting; others are elusive, hardly noticed if ever, like the grid used for a magazine layout; others are completely impossible to notice, like a self-imposed limit of time to achieve something. I believe the 3 of them are necessary—vital. In fact, while it’s sometimes hard for the non-discerned eye to see the constraints at work, it’s far easier to  see when there were no constraints involved in the creation of something. Lousy products, ugly artworks, we notice them instantly without ever being able to put words on it, but we &lt;em&gt;feel&lt;/em&gt; something is wrong, that the minds behind them lacked the motivation, the skills, or the will to make them good.&lt;/p&gt;
+
+&lt;p&gt;Now &lt;em&gt;that&lt;/em&gt; is something I can work with. Given how many times I’ve drifted away without the confines of constraints, it may very well be the missing ingredient to get my writing going on.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Whether this modicum of observations will change anything is anyone’s guess, but I’m sure going to give it a go. We’ll see in a month.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 14 Sep 2014 16:01:00 +0100</pubDate>
+        <link>/thoughts/writing-is-effing-hard/index.html</link>
+        <guid isPermaLink="true">/thoughts/writing-is-effing-hard/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>The Highway</title>
+        <description>&lt;p&gt;I&amp;rsquo;m a fairly emotional person. When things go awry, it&amp;rsquo;s not uncommon for me to react first and think second. Truth be told, this has never been useful in any way, to me or anyone around me when this happens. Never. It&amp;rsquo;s not fun being an anti-personnel mine, even less being the one walking on it.&lt;/p&gt;
+
+&lt;p&gt;There are many strategies to deal with that kind of behavior. I do sport. I treat my body and mind as accumulators that periodically must be emptied. In this endeavour, sport is my way to go. I enjoy the feeling of exhaustion. Meaning, letting go of my anger and frustration to a point where any trace of negative sentiment is literally imprinted on my soaked t-shirt. Getting rid of a version of myself that need not exist anymore. But as much as I like it, I&amp;rsquo;m not fool enough to think this is a reponsible strategy in the long term. Practicing sports is meant to improve health, not destroy it. Plus, when I find myself unable to go out for a run&amp;mdash;such as the past several months&amp;mdash;I tend to get less able to cope with daily stress. Which is a big problem, because least of all want I to become a hindrance for the ones I deeply care about. No one with enough dignity and self-awareness to understand one&amp;rsquo;s role in one&amp;rsquo;s own microcosm of friends and lovers and colleagues and parents actually wants to. If anything, this little pause in my otherwise crowded sport schedule reveals how flawed this approach is, how practicing sport (not the capital-S Sport where you push your limits to reach the ultimate level of beauty and control, but the sport you practice not to think of anything: the selfish, self-centered, I-am-the-only-one-in-the-universe sport) is a masquerade in disguise, a close-mindedness of sort which ultimately amounts to curing the symptoms rather than the disease. Artists at least create something others can enjoy.&lt;/p&gt;
+
+&lt;p&gt;I recently started exploring alternative methods; meditation, among others. I&amp;rsquo;m still studying the thing from a distance. Not because I&amp;rsquo;m doubtful&amp;mdash;anyone who&amp;rsquo;ve experienced how quiet and focused breathing shuts all your senses cannot doubt meditation&amp;mdash;but because I feel acquiring some knowledge is in order before starting to practice. And I cannot help but look at it through the lens of my own scientific background, however myopic this might be. Meditation is what a mathematician would probably call meta-thinking. It is thinking about the thinking, giving substance to feelings and ideas; not with the intent to ask the whys and hows, but to reach a level of consciousness that helps one &amp;ldquo;develop compassion, love, patience, generosity and forgiveness&amp;rdquo; [&lt;a href=&quot;http://en.wikipedia.org/wiki/Meditation&quot;&gt;source&lt;/a&gt;].&lt;/p&gt;
+
+&lt;p&gt;It is also about one&amp;rsquo;s ability to enjoy the present; something, I have discovered recently, I was awfully terrible at. Because you see, life is but a blip in the History of Time and I should make the most of it and oh man there are so many things I&amp;rsquo;d love to do how will I ever be able to look at them look they did it already I should learn learn learn and then run run and run again I&amp;rsquo;m late what on Earth have I done in the meantime stop thinking just do it seize every opportunity no much better create them show them what you&amp;rsquo;re made of and then show some more you must constantly evolve never ever settle for the status quo because hey time is running out and you don&amp;rsquo;t want to find yourself looking back and counting and cursing and feeling miserable for all the lazyness you showed but now it&amp;rsquo;s too late sorry you had your chance it&amp;rsquo;s time to hang up the gloves. All that bullshit. There&amp;rsquo;s &lt;a href=&quot;http://www.amazon.fr/gp/product/2913366376/ref=oh_details_o00_s00_i00?ie=UTF8&amp;amp;psc=1&quot;&gt;this book&lt;/a&gt; I&amp;rsquo;m reading and it&amp;rsquo;s fascinating because you can feel the tempo of the text, crafted through a meticulous choice of sentence length, punctuation, words, images, subject matter, it carries a quietness that transcends the boundary of the paper. Reading it has brought back a vision I have been having many times in my life, but somehow completely forgot. It&amp;rsquo;s not a dream really&amp;mdash;although I may have dreamt about it once&amp;mdash;and yet it seems to have all the usual ingredients of a dream. It goes like this:&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m on a highway. It&amp;rsquo;s more a road actually, because there&amp;rsquo;s no car and I&amp;rsquo;m walking. I just appear to be walking very fast, highway-speed fast. I&amp;rsquo;m looking at myself from a vantage point higher up in the sky, like a bird perched on a tree. I&amp;rsquo;m surrounded by other bodies; they don&amp;rsquo;t have any distinctive feature so I don&amp;rsquo;t recognize them, but I assume (I &lt;em&gt;feel&lt;/em&gt;) they are my friends and relatives. I have no time to look at them. All that really matters is where I&amp;rsquo;m going: forward, never stopping, not turning back. It seems I have no particular destination, I&amp;rsquo;m just &amp;ldquo;driving.&amp;rdquo; And yet at some point, I feel the need to stop, get on the sidelane and watch. I don&amp;rsquo;t know what to choose: either go on, with that persistent and annoying feeling, or stop and lose all my relatives in the process.&lt;/p&gt;
+
+&lt;p&gt;I always thought this vision&amp;mdash;albeit traumatizing&amp;mdash;hid some fundamental truth about Life, but it wasn&amp;rsquo;t until I explored meditation, until I was forced into a corner by my own inability to enjoy what I was lucky to possess, that I started to really appreciate the depth of it and, instead of resisting the urge to stop, fully gave myself to it. What I discovered was no less than the soul-crushing experience of finding out I&amp;rsquo;ve been wrong all along. I still have to come to grips with the fact that my blind certainty of me doing The Right Thing may have cost me a lot, the friendship and love of people dearest to my heart first and foremost. But I&amp;rsquo;m no coward. These things I will fight to get them back. I will charge heads on with the fierceness of a raging bull. There is no other choice, in fact there is no choice at all. If I learned anything, it is that saying something is impossible is a nondescript excuse to avoid taking risks.&lt;/p&gt;
+
+&lt;p&gt;Not gonna happen.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Here I am, quiet still, just looking. Staring. With that special immunity from the laws of physics that comes only in dreams, the people they stopped moving. They&amp;rsquo;re not going anywhere, not without me. I can see the details now; I&amp;rsquo;m submerged by the details, as if walking into an unknown territory where everything is a constellation of infinite curiosities. I see the highway stretching far on both ends, I see the people. Me. It&amp;rsquo;s time to get things done. I&amp;rsquo;m on it.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 21 May 2014 16:01:00 +0100</pubDate>
+        <link>/thoughts/the-highway/index.html</link>
+        <guid isPermaLink="true">/thoughts/the-highway/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>It&#39;s election time again</title>
+        <description>&lt;p&gt;&lt;strong&gt;Update March 17&lt;/strong&gt;: Something interesting happened today. On March 4th, I wrote this post in order to explain some of the work that went into the making of the new elections.lu; later on, ITnation published &lt;a href=&quot;http://www.itnation.lu/news/elections-lu-rouvre-sa-plateforme-pour-les-elections-europeennes/30657/&quot;&gt;an article&lt;/a&gt; on the upcoming &amp;ldquo;responsive platform&amp;rdquo; (whatever that means) elections.lu, linking to this very post for more details on the matter. Although I was kind of happy the word on my writings spread so fast, I quickly realised  I was disclosing information that did not belong to me, something that could mislead people into thinking I spoke for the Centre des Technologies de l&amp;#39;Information. Obviously, that was unintentional. I cannot stress enough that the site elections.lu is the result of a coordinated effort between many teams, of which I am proud to be a part of.&lt;/p&gt;
+
+&lt;p&gt;To edit this post out of any reference to the work itself would alter its meaning to the point of ridicule, I therefore decided to take the whole thing down in order to prevent any further confusion. This does not mean I won&amp;rsquo;t cover every technique I&amp;rsquo;ve developed recently in details on this site&amp;mdash;I will. There are many things, some I brushed over, some I didn&amp;rsquo;t mention, that would benefit from in-depth explanations.&lt;/p&gt;
+
+&lt;p&gt;This little stunt has at least the merit of unearthing one of Luxembourg Web scene&amp;rsquo;s greatest irony: that for a medium that is the ultimate communication tool, there&amp;rsquo;s an utter lack of communication happening on the web, about the web. &lt;em&gt;Un&lt;/em&gt;communication, as I&amp;rsquo;ve started to call it, may very well be &lt;em&gt;the&lt;/em&gt; reason why many websites that see the light of day look amateurish at best when looked at under the microscope of modern web design. This is a complex topic, one that finds its roots in the cultural landscape of Luxembourg; one that&amp;rsquo;s going to be fun to examine in a future post.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 04 Mar 2014 16:07:00 +0000</pubDate>
+        <link>/thoughts/its-election-time-again/index.html</link>
+        <guid isPermaLink="true">/thoughts/its-election-time-again/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>The Black … what?</title>
+        <description>&lt;p&gt;I was so excited to &lt;a href=&quot;/oh-hello&quot;&gt;launch this thing&lt;/a&gt; that I forgot to introduce myself and let you know what this site is about. I&amp;rsquo;d better fix this right away so we can move on to more exciting stuff. First things first.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;My name is Régis Kuckaertz and I&amp;rsquo;m a 34 year old front-end engineer living and working in Luxembourg. I work for &lt;a href=&quot;http://nvision.lu&quot;&gt;Nvision&lt;/a&gt; and two years ago I joined the Web &amp;amp; User Experience office of the Government, where we shape the future of its digital presence. That sounds boring, right? Well that&amp;rsquo;s because it is. What you want to know is what I stand for in order to decide whether you like me or not. Here it goes:&lt;/p&gt;
+
+&lt;p&gt;I believe &lt;a href=&quot;https://vimeo.com/34155414&quot;&gt;writing markup is a craft&lt;/a&gt;. HTML has by design a very low barrier to entry, but the fact is that it is hard to understand (even more to embrace) the tenets of semantic HTML. No, HTML is &lt;em&gt;not&lt;/em&gt; &lt;a href=&quot;http://studiotendra.com/2014/01/29/html-is-too-complex/&quot;&gt;too complex&lt;/a&gt;, but it takes years of practice before being able to create lean, semantic, efficient, fast, accessible, usable, attention-grabbing, &lt;a href=&quot;http://futurefriendlyweb.com/&quot;&gt;future-friendly&lt;/a&gt; and engaging websites. The same goes for CSS and JavaScript.&lt;/p&gt;
+
+&lt;p&gt;Even though I &lt;em&gt;love&lt;/em&gt; learning and &lt;a href=&quot;https://www.readability.com/regiskuckaertz/&quot;&gt;sharing&lt;/a&gt; everything about web standards, I believe that the ultimate goal and therefore the only thing that matters in the end is to &lt;a href=&quot;http://www.paris-web.fr/2012/conferences/tba.php&quot;&gt;create delightful experiences that trigger emotions&lt;/a&gt;. You may be the greatest designer of all time, turn every page into a masterpiece; if what people experience does not&amp;mdash;at least&amp;mdash;match their expectations, or help them achieve their goals, then it&amp;rsquo;s completely useless. Nobody will care about your responsive grid if it doesn&amp;rsquo;t save people&amp;rsquo;s lives.&lt;/p&gt;
+
+&lt;p&gt;I believe the web in Luxembourg is as crappy a place as one can find when it comes to practicing with ethics, care and passion. Go and have a look at it, I&amp;rsquo;ll be waiting right here. See? The number of things going wrong is such, it is hard to decide where to start. I&amp;rsquo;ve been there so many times. User research? Lol, we don&amp;rsquo;t need any research&amp;mdash;we know everything there is to know already. The content? Don&amp;rsquo;t worry about it, we have a brochure we spent too much money on&amp;mdash;better use it twice. Oh, by the way, let&amp;rsquo;s put a big ad over there, juuuuust above what people are looking for so they can&amp;rsquo;t ignore it&amp;mdash;advertisers will believe it&amp;rsquo;s worth their money. Our budget? It works the other way, pal: you tell us how much it costs based on this unrealistic project description and then &lt;em&gt;we&lt;/em&gt; decide if we want it or not. I could go on and on. While agencies are still catching up with concepts such as semantic markup, grids and typography for the web, the DOM, progressive enhancement, responsive design, &amp;hellip; the true challenges remain to be tackled: where are the great narratives? The dazzling stories that move people? The mixture of texts, images, sounds and videos crafted with so much care and precision that they cause emotions? The &lt;a href=&quot;http://littlebigdetails.com/&quot;&gt;little big details&lt;/a&gt; that turn businesses into religions? That sounds depressing, but it&amp;rsquo;s not. In fact, that&amp;rsquo;s why it is so rewarding to work there&amp;mdash;even a small dent in this insurmountable pile of crap can make you feel like you are doing the right thing.&lt;/p&gt;
+
+&lt;p&gt;I believe people are responsible for where they end up, in every part of life and especially at work. &lt;em&gt;You&lt;/em&gt; are the one in charge of finding an environment where your skills are valued, challenged and renewed. If you think others will take care of this for you, or if anyone told you they would, you are as misguided as they are. For if there&amp;rsquo;s anything that matters at any time, it&amp;rsquo;s that you have everything to prove. &lt;a href=&quot;http://designprofessionalism.com/defining-design-professionalism-1.php&quot;&gt;You get what you deserve&lt;/a&gt;, but don&amp;rsquo;t take my word for it. Have a look around and ask yourself these questions: Do you love working with them? Are they getting the best out of you? Do they exceed your expectations? Are you proud of what you&amp;rsquo;re doing? Do they match your ethical standards?&lt;/p&gt;
+
+&lt;p&gt;I believe creativity is not the privilege of a chosen few but a skill that &lt;em&gt;anyone in any field&lt;/em&gt; must train and nurture in order to be recognised as a valued personality, capable of achieving outstanding things and recognise opportunities where everyone else sees banality. I get incredibly angry at those who try to convince others and themselves otherwise. They are a danger to themselves and the people depending on them. It is both infuriating and sad to see potential talent completely wasted, meet someone&amp;mdash;who could otherwise have been a champion of creativity&amp;mdash;lost on arrogance, elitism and close-mindedness.&lt;/p&gt;
+
+&lt;p&gt;Can you relate to that? If yes, that&amp;rsquo;s incredible&amp;mdash;&lt;a href=&quot;http://twitter.com/regiskuckaertz&quot;&gt;we should talk&lt;/a&gt;. If not, there&amp;rsquo;s a chance we might not get along, but I&amp;rsquo;m willing to try nonetheless. Because, as an avid reader of things totally unrelated from the World Wide Web, I find inspiration in the fickle connections one can draw out of accidental discoveries. There&amp;rsquo;s a great idea waiting around the corner, all it needs is the &lt;a href=&quot;http://www.brainpickings.org/&quot;&gt;cross-pollination of knowledge&lt;/a&gt; that happens when people meet, share and debate. Let&amp;rsquo;s do this.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;Ok that&amp;rsquo;s great and all but, what&amp;rsquo;s with the name?&lt;/h2&gt;
+
+&lt;p&gt;As mentioned above, I work in a country where the web is really undervalued compared to other, more traditional, mediums. It just isn&amp;rsquo;t taken seriously enough, to a point where &lt;a href=&quot;http://www.media-awards.lu/media-awards_Internet.27-2.html&quot;&gt;it&amp;rsquo;s a joke&lt;/a&gt; to see how abysmal the quality of awarded websites is&amp;mdash;needless to say how ridiculed they would be, should one ever try to go for &lt;a href=&quot;https://thenetawards.com/&quot;&gt;the big league&lt;/a&gt;. It&amp;rsquo;s like fifteen years ago elsewhere; only it&amp;rsquo;s today here. Where this comes from is hard to pinpoint, but I kind of feel there are several elements at play here&amp;mdash;most of which I&amp;rsquo;ll write about at length in the near future.&lt;/p&gt;
+
+&lt;p&gt;Our industry needs to be shaken up if it wants to advance to a point where it&amp;rsquo;s on par with current standards and get some attention. This site is my attempt at doing so. It&amp;rsquo;s name is a bold and presumptuous reference to the &lt;a href=&quot;http://en.wikipedia.org/wiki/Black_swan_theory&quot;&gt;black swan theory&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The black swan theory [&amp;hellip;] is a metaphor that describes an event that comes as a surprise, has a major effect, and is often inappropriately rationalized after the fact with the benefit of hindsight.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;That was bound to happen.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 08 Feb 2014 15:59:00 +0000</pubDate>
+        <link>/thoughts/the-black-what/index.html</link>
+        <guid isPermaLink="true">/thoughts/the-black-what/index.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Oh, hello</title>
+        <description>&lt;p&gt;I&amp;rsquo;ve been meaning to do this for quite some time. It started like it does for anyone, I guess. The occurrence of something one cares about deeply, triggered the surge to voice one&amp;rsquo;s own opinion—as if it was the only thing to do. Then again, and again, and again. At least this is what drove me to finally take my first foray into public writing.&lt;/p&gt;
+
+&lt;p&gt;Obviously what you are seeing right now is a bare version of what this site will eventually be. On purpose. For the 10 years I&amp;rsquo;ve been creating websites, the same issue has been coming up recurrently: a willingness to do too much and get Everything Right™ at the same time. Being understood in 300 words is already a challenge in itself. Yet the great thing about the digital medium is that it is in constant flux. A thing made to move, to mutate, to continuously become. A playground where every word can be rewritten, every sentence iterated, every paragraph fine-tuned &lt;em&gt;until it sings&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;I won&amp;rsquo;t go into details right now. There are many challenges that lie ahead: from figuring out the information architecture that best serves the delivery of my soliloquies to engineering the elements—both visible and hidden—into something cohesive, and creating the best experience no matter under what conditions these words are read.&lt;/p&gt;
+
+&lt;p&gt;This is just the tip of the iceberg. More is to come, I promise.&lt;/p&gt;
+
+&lt;p&gt;This is the Black Swan.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 04 Feb 2014 16:08:00 +0000</pubDate>
+        <link>/thoughts/oh-hello/index.html</link>
+        <guid isPermaLink="true">/thoughts/oh-hello/index.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

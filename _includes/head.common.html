@@ -1,0 +1,14 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="twitter:site" content="{{ site.twitter_id }}">
+<meta property="fb:app_id" content="{{ site.facebook_id }}">
+<meta property="og:site_name" content="{{ site.title }}">
+<link rel=preload href=/fonts/glosa-n4.woff2 type=application/font-woff2 as=font crossorigin>
+<link rel=preload href=/fonts/auto-i3.woff2 type=application/font-woff2 as=font crossorigin>
+<link rel="alternate" type="application/rss+xml" href="{{ site.feed_url }}">
+<script>
+    {% include scripts.js %}
+    loadCSS('/styles/screen.css');
+    {% if page.customcss %};loadCSS('/styles/{{ page.customcss }}'){% endif %}
+</script>
+<!-- style>{% include critical.css %}</style -->

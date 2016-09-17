@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<article class="article" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <header class="article-head">
+        <h1 class="article-title" itemprop="name headline">
+            {%if meta['svg-title'] %}
+                {{ meta['svg-title'] }}
+            {% else %}
+                {{ page.title | smartypants }}
+            {% endif %}
+        </h1>
+        <!-- <p class="article-meta">Published in
+            <a href="{{ site.collections.thoughts.url }}">{{ site.collections.thoughts.label | smartypants }}</a>
+            on
+            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+        </p> -->
+    </header>
+
+    <div class="article-content wrapper" itemprop="articleBody">
+        {{ content }}
+    </div>
+
+    {% if page.previous or page.next %}
+        <nav class="article-nav">
+            <h2>Read this next</h2>
+            <ul>
+                {% if page.previous %}
+                    <li><a href="{{ page.previous.url }}">
+                        {{ page.previous.title }}
+                    </a></li>
+                {% endif %}
+                {% if page.next %}
+                    <li><a href="{{ page.next.url }}">
+                        {{ page.next.title }}
+                    </a></li>
+                {% endif %}
+            </ul>
+        </nav>
+    {% endif %}
+
+</article>

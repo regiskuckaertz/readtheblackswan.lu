@@ -1,0 +1,583 @@
+---
+---
+
+@import 'base';
+@import 'functions';
+@import 'mixins';
+
+/* Some bits directly inherited from normalize.css
+ * Source: http://necolas.github.io/normalize.css/
+ */
+
+@font-face {
+    font-family: Auto;
+    font-weight: 300;
+    font-style: italic;
+    font-variant-alternates: swash();
+    src: url('../fonts/auto-i3.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: Glosa;
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/glosa-n4.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: Glosa;
+    font-weight: 400;
+    font-style: italic;
+    src: url('../fonts/glosa-i4.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: Glosa;
+    font-weight: 700;
+    font-style: normal;
+    src: url('../fonts/glosa-n7.woff2') format('woff2');
+}
+
+html {
+    font: normal 100%/#{$line-height} 'Glosa', Georgia, 'times new roman', serif;
+    hyphens: auto;
+
+    @media (min-width: 48em) {
+        font-size: 125%;
+    }
+
+    @media (min-width: 64em) {
+        font-size: 150%;
+    }
+
+    @media (min-width: 80em) {
+        font-size: 175%;
+    }
+}
+
+body {
+    background: #fff;
+    color: #333;
+    font-feature-settings: "liga";
+    font-variant-ligatures: common-ligatures;
+    font-variant-numeric: oldstyle-nums;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+    @include grid-margin(1, $mobileL: 2, $laptop: 3, $desktop: 1);
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-variant-numeric: lining-nums;
+    hyphens: none;
+}
+
+svg {
+    fill: currentColor;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+a {
+    color: $a-color-link;
+    text-decoration: none;
+
+    &:visited {
+        color: $a-color-visited;
+    }
+
+    &:hover,
+    &:focus {
+        text-decoration: underline;
+        text-decoration: underline solid #c7c9cb;
+        text-decoration-skip: ink;
+    }
+}
+
+table {
+    font-variant-numeric: tabular-nums;
+}
+
+.bl {
+    display: block;
+
+    .bl-hover {
+        transition: color .2s;
+    }
+
+    &,
+    &:visited {
+        color: inherit;
+    }
+
+
+    &:hover,
+    &:focus,
+    &:active {
+        text-decoration: none;
+
+        .bl-hover {
+            color: $a-color-link;
+        }
+    }
+}
+
+a,
+button,
+input,
+select,
+textarea {
+    touch-action: manipulation;
+}
+
+sup {
+    font-feature-settings: "sups" 1;
+    font-variant-position: super;
+    line-height: 1;
+    vertical-align: inherit;
+}
+
+mark,
+::selection {
+    background: #FDFFDF;
+}
+
+p {
+    margin: 0;
+
+    & + &:not([class]) {
+        text-indent: $line-height;
+    }
+}
+
+.at {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    border: 0;
+    margin: -1px;
+    padding: 0;
+}
+
+.ui {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.brand {
+    @include grid-margin(-1, $mobileL: -2, $laptop: -3);
+    @include grid-padding(1, $mobileL: 2, $laptop: 3);
+    padding-bottom: 2rem;
+
+    @include shape-background(
+        $brand-colour,
+        .8,
+        .4,
+        polygon(0 0, 100% 0, 100% 92%, 0 74%),
+        polygon(0 0, 100% 0, 100% 54%, 0 100%)
+    );
+}
+
+.brand-logo {
+    display: block;
+    font-weight: bold;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    text-transform: lowercase;
+
+    @include grid-span(1, tablet);
+    @include grid-span(2, laptop);
+    @include grid-span(4, desktop);
+
+    &,
+    &:visited {
+        color: white;
+    }
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+    }
+
+    > .brand-blurb {
+        color: $neutral-light-colour;
+        font-weight: 400;
+        &::before {
+            content: ' • ';
+        }
+    }
+}
+
+.article--excerpt {
+    & + &::before {
+        border-top: 2px solid $c-divider;
+        content: '';
+        display: block;
+        margin-top: $line-height * 2;
+    }
+
+    @include mq(tablet) {
+        .article-content {
+            margin: 0;
+            display: flex;
+            align-items: baseline;
+        }
+
+        .article-datetime {
+            flex-basis: get-grid-width(1, tablet);
+        }
+
+        .article-excerpt {
+            flex: 1;
+        }
+    }
+
+    @include mq(laptop) {
+        .article-datetime {
+            flex-basis: get-grid-width(2, laptop);
+        }
+    }
+
+    @include mq(desktop) {
+        .article-datetime {
+            flex-basis: get-grid-width(4, desktop);
+        }
+    }
+}
+
+.article-head {
+    margin: $line-height * 5 0 $line-height * 2;
+
+    @media (min-width: #{map-get($breakpoints, tablet)}) {
+        margin: $line-height * 6 0 $line-height * 3;
+    }
+}
+
+.article-title {
+    font: italic 300 2.5em/1 Auto, georgia, times new roman, serif;
+    font-variant-alternates: swash();
+    font-feature-settings: "liga", "swsh";
+    margin: 0;
+
+    @media (min-width: #{map-get($breakpoints, tablet)}) {
+        font-size: 3em;
+    }
+}
+
+.article-datetime {
+    font-weight: bold;
+}
+
+.article-content {
+    @include grid-span(1, tablet);
+    @include grid-span(2, laptop);
+    @include grid-span(4, desktop);
+}
+
+.article-content > :first-child {
+    margin-top: 0;
+}
+
+.article-nav {
+    color: #fff;
+    padding: $line-height * 2 0;
+    margin-top: $line-height * 2;
+    margin-bottom: $line-height * 2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    @include grid-margin(-1, $mobileL: -2, $laptop: -3);
+    @include grid-padding(0, $laptop: 3);
+    @include shape-background($dark-colour, .9, .6, polygon(0 8%, 100% 0, 100% 86%, 0 100%), polygon(0 0, 100% 4%, 100% 100%, 0 90%));
+
+    > h2 {
+        font-size: .75em;
+        font-variant-caps: small-caps;
+        font-weight: normal;
+        letter-spacing: .1em;
+        text-transform: lowercase;
+        margin: 0 0 1em;
+    }
+
+    > ul {
+        font-family: Auto, Hoefler Text, Georgia, serif;
+        font-style: italic;
+        font-weight: 300;
+        list-style: none;
+        margin: 0;
+    }
+
+    li + li::before {
+        content: 'or';
+        display: block;
+    }
+
+    a {
+        display: block;
+    }
+
+    @media (min-width: #{map-get($breakpoints, tablet)}) {
+        > ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        li + li::before,
+        a {
+            display: inline-block;
+            margin: 0 1ex;
+        }
+    }
+}
+
+.article-meta {
+    color: #ccc;
+    font-size: .75rem;
+    font-feature-settings: "smcp";
+    margin: 2rem 0;
+    text-align: center;
+
+    > a,
+    > a:visited {
+        font-feature-settings: "smcp" 0;
+        font-style: italic;
+        color: inherit;
+    }
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 1.75rem;
+    margin: $line-height * 2 0 $line-height;
+}
+
+h3 {
+    font-size: .75rem;
+    margin: $line-height / .75 0 $line-height / 2 / .75;
+}
+
+.highlight {
+    margin: 0 0 1.8rem;
+}
+
+.codepen {
+    font-weight: bold;
+    margin: $line-height auto;
+    text-align: center;
+    width: 15em;
+}
+
+.cp_embed_iframe {
+    margin: 0 0 1.8rem;
+
+    @media (min-width: 44em) {
+        margin: 0 0 3rem;
+    }
+}
+
+// .article-content > p:first-child::first-letter {
+//     color: #A04740;
+//     float: left;
+//     font-size: 5em;
+//     line-height: 72px;
+//     margin: 0 .1em -.2em 0;
+//
+//     @media (min-width: 44em) {
+//         font-size: 5.2em;
+//         line-height: 4.375rem;
+//     }
+//
+//     @media (min-width: 52em) {
+//         line-height: 4.6667rem;
+//     }
+// }
+
+ol,
+ul {
+    list-style-position: inside;
+    margin: 1.8rem 0;
+    padding: 0;
+
+    @media (min-width: 44em) {
+        margin: 3rem 3.2rem;
+    }
+}
+
+li > strong:first-child {
+    font-size: .75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+hr {
+    border: 0;
+    box-sizing: border-box;
+    line-height: 1;
+    margin: $line-height * 2 0;
+}
+
+hr::before {
+    content: '* * *';
+}
+
+blockquote {
+    font: normal 700 1.5rem/1.75rem Glosa, Georgia, 'times new roman', serif;
+    margin: $line-height 0;
+
+    &::before {
+        content: '“';
+        float: left;
+        margin: 0 -.55em;
+    }
+
+    > *:last-child::after {
+        content: '”';
+    }
+
+    p {
+        display: inline;
+    }
+
+    p + p::before {
+        color: $neutral-light-colour;
+        content: '¶';
+        font-size: 1rem;
+        margin: 0 1ex;
+    }
+}
+
+blockquote p {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+blockquote del {
+    text-decoration: none;
+}
+
+q {
+    font-style: italic;
+    &::before { content: '“'; }
+    &::after  { content: '”'; }
+}
+
+footer[role="contentinfo"] {
+    color: $neutral-dark-colour;
+    font-size: .75em;
+    line-height: $line-height / .75;
+    padding: 0 0 $line-height;
+    margin-top: $line-height * 2;
+
+    .thoughts + & {
+        margin-top: $line-height * 6;
+    }
+
+    > * {
+        max-width: 30em;
+    }
+
+    > ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+    }
+
+    li + li {
+        &::before {
+            content: '•';
+            margin-left: 1ex;
+            margin-right: 1ex;
+        }
+    }
+}
+
+table {
+    font-feature-settings: "tnum";
+    font-size: .75rem;
+    width: 100%;
+}
+
+th, td {
+    padding: 0 1rem .25rem 0;
+    text-align: left;
+}
+
+.credit {
+    text-align: right;
+    font-size: .75em;
+}
+
+ins:not([class]) {
+    text-decoration-color: rgba(0,0,0,.1);
+    text-decoration-style: dotted;
+}
+
+.aside {
+    color: $neutral-dark-colour;
+    font-style: italic;
+    margin: $line-height 0;
+
+    @media (min-width: #{map-get($breakpoints, tablet)}) {
+        @include grid-span(-1, tablet);
+    }
+}
+
+.media {
+    @include grid-margin(-1);
+}
+
+.sic {
+    font-style: italic;
+    font-weight: normal;
+    text-decoration: none;
+
+    &::before,
+    &::after  { font-style: normal; }
+    &::before { content: '['; }
+    &::after  { content: ']'; }
+
+    q & { font-style: normal; }
+}
+
+.footnotes {
+    font-size: .75em;
+    line-height: 1.5;
+
+    &::before {
+        content: '';
+        display: block;
+        border-top: 2px solid $neutral-light-colour;
+        height: 0;
+        padding-top: $line-height * 2;
+        margin-top: $line-height * 2;
+
+        @include grid-width(1, tablet);
+
+        @media (min-resolution: 2ddpx),
+          (-webkit-min-device-pixel-ratio: 2) {
+            border-top-width: 1px;
+        }
+
+        @media (min-resolution: 3ddpx),
+          (-webkit-min-device-pixel-ratio: 3) {
+            border-top-width: (2px/3);
+        }
+    }
+
+    > ol {
+        margin: 0;
+    }
+
+    li + li {
+        margin-top: .5em;
+    }
+}

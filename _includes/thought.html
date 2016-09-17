@@ -1,0 +1,18 @@
+<article class="article article--excerpt">
+    <a href="{{ thought.url }}" class="bl">
+        <header class="article-head bl-hover">
+            <h1 class="article-title">
+                {%if meta['svg-title'] %}
+                    {{ meta['svg-title'] }}
+                {% else %}
+                    {{ thought.title | smartify }}
+                {% endif %}
+            </h1>
+        </header>
+
+        <div class="article-content">
+            <time class="article-datetime ui" datetime="{{ thought.date | date_to_xmlschema }}" itemprop="datePublished">{{ thought.date | date: "%b %-d, %Y" }}</time>
+            <p class="article-excerpt">{{ thought.excerpt | strip_html | lstrip }}</p>
+        </div>
+    </a>
+</article>
