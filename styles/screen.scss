@@ -45,10 +45,6 @@ html {
     @media (min-width: 48em) {
         font-size: 125%;
     }
-
-    @media (min-width: 64em) {
-        font-size: 150%;
-    }
 }
 
 body {
@@ -168,8 +164,8 @@ p {
 }
 
 .brand {
-    @include grid-margin(-1, $mobileL: -2, $laptop: -3);
-    @include grid-padding(1, $mobileL: 2, $laptop: 3);
+    @include grid-margin(-1, $mobileL: -2, $laptop: -3, $desktop: -1);
+    @include grid-padding(1, $mobileL: 2, $laptop: 3, $desktop: 1);
     padding-bottom: 2rem;
 
     @include shape-background(
@@ -189,8 +185,8 @@ p {
     text-transform: lowercase;
 
     @include grid-span(1, tablet);
-    @include grid-span(2, laptop);
-    @include grid-span(4, desktop);
+    @include grid-span(1, laptop);
+    @include grid-span(3, desktop);
 
     &,
     &:visited {
@@ -211,33 +207,46 @@ p {
     }
 }
 
+.thoughts {
+    margin-top: $line-height * 3;
+}
+
 .article--excerpt {
+    display: flex;
+    flex-direction: column-reverse;
+
+    .article-title {
+        font-size: 2em;
+    }
+
+    .article-datetime {
+        line-height: 2;
+    }
+
+    & + & {
+        margin-top: $line-height * 1.5;
+    }
+
     @include mq(tablet) {
-        .article-content {
-            margin: 0;
-            display: flex;
-            align-items: baseline;
+        flex-direction: row-reverse;
+        align-items: baseline;
+
+        .article-title {
+            flex: 1;
         }
 
         .article-datetime {
-            flex-basis: get-grid-width(1, tablet);
-        }
-
-        .article-excerpt {
-            flex: 1;
+            @include grid-width(1, tablet);
+            @include grid-width(3, desktop);
         }
     }
 
     @include mq(laptop) {
-        .article-datetime {
-            flex-basis: get-grid-width(2, laptop);
-        }
+        @include grid-span(1, laptop);
     }
 
     @include mq(desktop) {
-        .article-datetime {
-            flex-basis: get-grid-width(4, desktop);
-        }
+        @include grid-span(3, desktop);
     }
 }
 
@@ -262,12 +271,15 @@ p {
 
 .article-datetime {
     font-weight: bold;
+    opacity: .6;
 }
 
 .article-content {
     @include grid-span(1, tablet);
-    @include grid-span(2, laptop);
-    @include grid-span(4, desktop);
+    @include grid-span(1, laptop);
+    @include grid-width(4, laptop);
+    @include grid-span(3, desktop);
+    @include grid-width(6, desktop);
 }
 
 .article-content > :first-child {
@@ -283,8 +295,8 @@ p {
     display: flex;
     flex-direction: column;
 
-    @include grid-margin(-1, $mobileL: -2, $laptop: -3);
-    @include grid-padding(0, $laptop: 3);
+    @include grid-margin(-1, $mobileL: -2, $laptop: -3, $desktop: -1);
+    @include grid-padding(0, $laptop: 1, $desktop: 1);
     @include shape-background($dark-colour, .9, .6, polygon(0 8%, 100% 0, 100% 86%, 0 100%), polygon(0 0, 100% 4%, 100% 100%, 0 90%));
 
     > h2 {
@@ -366,10 +378,10 @@ h3 {
 }
 
 .cp_embed_iframe {
-    margin: 0 0 1.8rem;
+    margin: $line-height 0;
 
-    @media (min-width: 44em) {
-        margin: 0 0 3rem;
+    @include mq(laptop) {
+        margin: $line-height * 2 0;
     }
 }
 
@@ -515,13 +527,29 @@ ins:not([class]) {
     font-style: italic;
     margin: $line-height 0;
 
-    @media (min-width: #{map-get($breakpoints, tablet)}) {
+    @include mq(tablet)  {
+        box-sizing: border-box;
+        float: left;
         @include grid-span(-1, tablet);
+        @include grid-width(3, tablet);
+        padding-right: 10px;
+    }
+
+    @include mq(laptop) {
+        @include grid-span(-1, laptop);
+        @include grid-width(2, laptop);
+        margin: $line-height * 2 0;
+        padding-right: 20px;
+    }
+
+    @include mq(desktop) {
+        @include grid-span(-3, desktop);
+        @include grid-width(5, desktop);
+        padding-right: 40px;
     }
 }
 
 .media {
-    @include grid-margin(-1);
 }
 
 .sic {
