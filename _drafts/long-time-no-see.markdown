@@ -3,8 +3,6 @@ title: Long time no see
 date: 2016-11-29 18:58:00 +00:00
 ---
 
-# Long time no see
-
 I know, I know. But I can explain.
 
 This post marks my one year anniversary at [*The Guardian*](http://gu.com)—Yay! Not coincidentally, this journal has been lying dormant since then—Boo! I know it will sound cliché but I’m going to say it anyway: I haven’t seen time pass by. This is a good thing, right?
