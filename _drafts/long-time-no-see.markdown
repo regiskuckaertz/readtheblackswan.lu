@@ -5,6 +5,8 @@ date: 2016-11-29 18:58:00 +00:00
 
 I know, I know. But I can explain.
 
+***
+
 This post marks my one year anniversary at [*The Guardian*](http://gu.com)—Yay! Not coincidentally, this journal has been lying dormant since then—Boo! I know it will sound cliché but I’m going to say it anyway: I haven’t seen time pass by. This is a good thing, right?
 
 Looking back, many reasons come to mind as to why I stayed under the radar for so long, and in this post I’d like to try and unpack all of them. Ok, where should I start? Why, one year ago sounds like as good a pick as any.
