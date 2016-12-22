@@ -405,12 +405,9 @@ h3 {
 ol,
 ul {
     list-style-position: inside;
+    font-size: .8em;
     margin: 1.8rem 0;
     padding: 0;
-
-    @media (min-width: 44em) {
-        margin: 3rem 3.2rem;
-    }
 }
 
 li > strong:first-child {
