@@ -1,7 +1,6 @@
 ---
 title: We need to talk about viewability
 date: 2017-03-16 06:59:00 +00:00
-published: false
 ---
 
 Let us start with a short story.
